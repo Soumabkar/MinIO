@@ -1,0 +1,1 @@
+docker run -p 9000:9000 -p 9090:9090 -v /home/vagrant/minio/data:/data -e MINIO_ROOT_USER=vagrant -e MINIO_ROOT_PASSWORD=M@zel@1201 quay.io/minio/minio server /data --console-address ":9090"
