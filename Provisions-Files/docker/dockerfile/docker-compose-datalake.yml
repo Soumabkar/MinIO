@@ -1,0 +1,183 @@
+# Docker Compose - Data Lake avec MinIO + Hive Metastore + Trino
+version: '3.8'
+
+services:
+  # 1. Stockage Objet (S3 compatible)
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    hostname: minio
+    ports:
+      - "9000:9000"  # API
+      - "9001:9001"  # Console Web
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: abdoul1201
+      MINIO_DOMAIN: minio
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio-data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    networks:
+      - datalake-network
+
+  # Service pour créer les buckets MinIO automatiquement
+  minio-setup:
+    image: minio/mc:latest
+    container_name: minio-setup
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+      sleep 10;
+      /usr/bin/mc alias set myminio http://minio:9000 admin abdoul1201;
+      /usr/bin/mc mb myminio/warehouse --ignore-existing;
+      /usr/bin/mc mb myminio/raw-data --ignore-existing;
+      /usr/bin/mc mb myminio/processed --ignore-existing;
+      /usr/bin/mc policy set public myminio/warehouse;
+      /usr/bin/mc policy set public myminio/raw-data;
+      /usr/bin/mc policy set public myminio/processed;
+      echo 'MinIO setup completed';
+      exit 0;
+      "
+    networks:
+      - datalake-network
+
+  # 2. Base de données pour le Hive Metastore
+  metastore-db:
+    image: postgres:15
+    container_name: metastore-db
+    hostname: metastore-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: metastore_db
+      POSTGRES_USER: hive
+      POSTGRES_PASSWORD: abdoul1201
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hive -d metastore_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - datalake-network
+
+  # 3. Hive Metastore (Le catalogue)
+  hive-metastore:
+    image: apache/hive:4.0.0
+    container_name: hive-metastore
+    hostname: hive-metastore
+    depends_on:
+      metastore-db:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    ports:
+      - "9083:9083"  # Thrift port
+      - "10000:10000"  # HiveServer2 (optionnel)
+    environment:
+      # Database configuration
+      SERVICE_NAME: metastore
+      DB_DRIVER: postgres
+      
+      # PostgreSQL connection
+      METASTORE_DB_HOSTNAME: metastore-db
+      METASTORE_TYPE: postgres
+      
+      # S3/MinIO configuration
+      AWS_ACCESS_KEY_ID: admin
+      AWS_SECRET_ACCESS_KEY: abdoul1201
+      S3_ENDPOINT: http://minio:9000
+      S3_PATH_STYLE_ACCESS: "true"
+      
+      # Metastore specific
+      HIVE_METASTORE_WAREHOUSE_DIR: s3a://warehouse/
+      HIVE_METASTORE_URIS: thrift://hive-metastore:9083
+    volumes:
+      - ./hive-config:/opt/hive/conf
+      - hive-data:/opt/hive/data
+    command: >
+      bash -c "
+      echo 'Waiting for PostgreSQL...';
+      sleep 15;
+      
+      echo 'Initializing schema...';
+      /opt/hive/bin/schematool -dbType postgres -initSchema || true;
+      
+      echo 'Starting Hive Metastore...';
+      /opt/hive/bin/hive --service metastore
+      "
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "9083"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - datalake-network
+
+  # 4. Trino (Le moteur SQL)
+  trino:
+    image: trinodb/trino:latest
+    container_name: trino
+    hostname: trino
+    depends_on:
+      hive-metastore:
+        condition: service_healthy
+    ports:
+      - "8080:8080"  # Web UI et API
+    environment:
+      AWS_ACCESS_KEY_ID: admin
+      AWS_SECRET_ACCESS_KEY: abdoul1201
+      AWS_REGION: us-east-1
+    volumes:
+      - ./trino-config:/etc/trino:ro
+      - trino-data:/data/trino
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/v1/info || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - datalake-network
+
+  # 5. Jupyter Notebook pour tester (optionnel mais utile)
+  jupyter:
+    image: jupyter/pyspark-notebook:latest
+    container_name: jupyter
+    hostname: jupyter
+    depends_on:
+      - trino
+      - minio
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      GRANT_SUDO: "yes"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./jupyter-config:/home/jovyan/.jupyter
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
+    networks:
+      - datalake-network
+
+volumes:
+  minio-data:
+    driver: local
+  postgres-data:
+    driver: local
+  hive-data:
+    driver: local
+  trino-data:
+    driver: local
+
+networks:
+  datalake-network:
+    driver: bridge
+    name: datalake-network
