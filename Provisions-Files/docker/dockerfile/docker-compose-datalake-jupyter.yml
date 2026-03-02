@@ -93,7 +93,6 @@ services:
 
   trino:
     image: trinodb/trino:406
-    platform: linux/amd64   # ← forcer l'architecture
     container_name: trino
     hostname: trino
     depends_on:
@@ -109,6 +108,24 @@ services:
       interval: 30s
       timeout: 10s
       retries: 5
+    networks:
+      - datalake-network
+
+  jupyter:
+    image: jupyter/pyspark-notebook:latest
+    container_name: jupyter
+    hostname: jupyter
+    depends_on:
+      - minio
+      - trino
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      GRANT_SUDO: "yes"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
     networks:
       - datalake-network
 
