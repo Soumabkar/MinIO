@@ -2,13 +2,15 @@
 images=(
   "minio/minio:latest"
   "minio/mc:latest"
-  "postgres:15"
+  "postgres:18.0-alpine"
   "bitsondatadev/hive-metastore:latest"
-  "trinodb/trino:406"
+  "trinodb/trino:477"
 )
 
 # image : jupyter "jupyter/pyspark-notebook:latest"
 # image : hive "apache/hive:4.0.0"
+# image "trinodb/trino:406"
+# image : "postgres:18.0-alpine"
 
 # Pull des images Docker avec retry en cas d'échec de téléchargement (utile pour les connexions instables)  
 # Chaque image sera tentée jusqu'à 5 fois avec une pause de 10 secondes entre les tentatives

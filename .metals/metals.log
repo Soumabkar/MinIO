@@ -1,0 +1,800 @@
+2026.03.16 08:14:21 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.16 08:14:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+mars 16, 2026 8:14:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+2026.03.16 08:14:30 WARN  scala-cli >= 0.1.3 not found in PATH, fetching and starting a JVM-based Scala CLI
+2026.03.16 08:15:06 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 08:15:08 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/Main.scala
+2026.03.16 08:15:11 INFO  Running List(C:\Users\Soumabkar\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.18%252B8\OpenJDK17U-jdk_x64_windows_hotspot_17.0.18_8.zip\jdk-17.0.18+8\bin\java.exe, -cp, C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\cli_3\1.12.3\cli_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app_3\2.1.0\case-app_3-2.1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-launcher_2.13\2.1.25-M23\coursier-launcher_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-proxy-setup\2.1.25-M23\coursier-proxy-setup-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\publish\publish_3\0.4.4\publish_3-0.4.4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\jimfs\jimfs\1.3.1\jimfs-1.3.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\jniutils\windows-jni-utils\0.3.3\windows-jni-utils-0.3.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_3\2.38.8\jsoniter-scala-core_3-2.38.8.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\libsodiumjni\0.0.4\libsodiumjni-0.0.4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-typesafe-config_3\0.18.2\metaconfig-typesafe-config_3-0.18.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ai\kien\python-native-libs_3\0.2.5\python-native-libs_3-0.2.5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-packager_3\0.2.1\scala-packager_3-0.2.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\cli_3\0.2.13\cli_3-0.2.13.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-nop\2.0.17\slf4j-nop-2.0.17.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\client3\core_3\3.11.0\core_3-3.11.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\scalafix-interfaces\0.14.5\scalafix-interfaces-0.14.5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal_3\1.9.1\scala3-graal_3-1.9.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal-processor_3\1.9.1\scala3-graal-processor_3-1.9.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.7\scala3-library_3-3.3.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-module_3\1.12.3\build-module_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\config_3\1.12.3\config_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\specification-level_3\1.12.3\specification-level_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\sourcecode_3\0.4.3-M5\sourcecode_3-0.4.3-M5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-annotations_3\2.1.0\case-app-annotations_3-2.1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-util_3\2.1.0\case-app-util_3-2.1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\tmp\zip-input-stream\0.1.1\zip-input-stream-0.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.18\scala-library-2.13.18.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-cache_2.13\2.1.25-M23\coursier-cache_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-core_2.13\2.1.25-M23\coursier-core_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-core_3\0.18.2\metaconfig-core_3-0.18.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.5\config-1.4.5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_3\2.14.0\scala-collection-compat_3-2.14.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-core\0.27.3\jib-core-0.27.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_3\0.11.8\os-lib_3-0.11.8.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcpg-jdk18on\1.83\bcpg-jdk18on-1.83.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcutil-jdk18on\1.83\bcutil-jdk18on-1.83.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\shared_3\0.2.13\shared_3-0.2.13.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\model\core_3\1.7.11\core_3-1.7.11.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\core_3\1.3.22\core_3-1.3.22.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\ws_3\1.3.22\ws_3-1.3.22.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\interface\1.0.28\interface-1.0.28.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\ow2\asm\asm\9.9.1\asm-9.9.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\java-class-name\java-class-name_3\0.1.9\java-class-name_3-0.1.9.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-shared_2.13\4.15.2\semanticdb-shared_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\test-runner_3\0.5.10\test-runner_3-0.5.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.9.5\pprint_3-0.9.5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-nodejs_3\1.5.0\scalajs-env-nodejs_3-1.5.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-sbt-test-adapter_2.13\1.20.2\scalajs-sbt-test-adapter_2.13-1.20.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\zip-input-stream\zip-input-stream\0.1.3\zip-input-stream-0.1.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\options_3\1.12.3\options_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\directives_3\1.12.3\directives_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala-cli-bsp\1.12.3\scala-cli-bsp-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\test-runner_3\1.12.3\test-runner_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\tasty-lib_3\1.12.3\tasty-lib_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\windows-ansi\windows-ansi\0.0.6\windows-ansi-0.0.6.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\cache-util\2.1.25-M23\cache-util-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-paths\2.1.25-M23\coursier-paths-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-util_2.13\2.1.25-M23\coursier-util_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\versions_2.13\0.5.1\versions_2.13-0.5.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\concurrent-reference-hash-map\1.1.0\concurrent-reference-hash-map-1.1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.4.0\scala-xml_2.13-2.4.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-pprint_3\0.18.2\metaconfig-pprint_3-0.18.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\paiges-core_3\0.4.4\paiges-core_3-0.4.4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.18\scala-reflect-2.13.18.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-build-plan\0.4.0\jib-build-plan-0.4.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client\1.42.2\google-http-client-1.42.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-apache-v2\1.42.2\google-http-client-apache-v2-1.42.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-oauth2-http\1.10.0\google-auth-library-oauth2-http-1.10.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_3\1.1.1\geny_3-1.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-zip\0.11.8\os-zip-0.11.8.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcprov-jdk18on\1.83\bcprov-jdk18on-1.83.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jni\3.25.0\jline-terminal-jni-3.25.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-native\3.25.0\jline-native-3.25.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.7\scala3-compiler_3-3.3.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalameta_2.13\4.15.2\scalameta_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scalap\2.13.15\scalap-2.13.15.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\scalapb-runtime_2.13\0.11.17\scalapb-runtime_2.13-0.11.17.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\tools_3\0.5.10\tools_3-0.5.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.5.1\fansi_3-0.5.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-js-envs_3\1.5.0\scalajs-js-envs_3-1.5.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.13\2.3.3\bloop-config_2.13-2.3.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\core_3\1.12.3\core_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\using_directives\1.1.4\using_directives-1.1.4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-macros_3\1.12.3\build-macros_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bsp4j\2.1.1\bsp4j-2.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\2.4.1\jansi-2.4.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\is-terminal\0.1.2\is-terminal-0.1.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-api\0.31.1\opencensus-api-0.31.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-contrib-http-util\0.31.1\opencensus-contrib-http-util-0.31.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auto\value\auto-value-annotations\1.9\auto-value-annotations-1.9.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-credentials\1.10.0\google-auth-library-credentials-1.10.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-gson\1.42.2\google-http-client-gson-1.42.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.7\scala3-interfaces-3.3.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.7\tasty-core_3-3.3.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.8.0-scala-1\scala-asm-9.8.0-scala-1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.10.7\compiler-interface-1.10.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\parsers_2.13\4.15.2\parsers_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.15\scala-compiler-2.13.15.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\lenses_2.13\0.11.17\lenses_2.13-0.11.17.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.19.6\protobuf-java-3.19.6.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\nir_3\0.5.10\nir_3-0.5.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\util_3\0.5.10\util_3-0.5.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-logging_3\1.2.0\scalajs-logging_3-1.2.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.13\0.1.12\unroll-annotation_2.13-0.1.12.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-rifle_2.13\2.0.19\bloop-rifle_2.13-2.0.19.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-jvm_2.13\2.1.25-M23\coursier-jvm_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\dependency_3\0.3.2\dependency_3-0.3.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jgit\org.eclipse.jgit\7.5.0.202512021534-r\org.eclipse.jgit-7.5.0.202512021534-r.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-jsdom-nodejs_2.13\1.1.1\scalajs-env-jsdom-nodejs_2.13-1.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.generator\0.20.1\org.eclipse.lsp4j.generator-0.20.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.jsonrpc\0.20.1\org.eclipse.lsp4j.jsonrpc-0.20.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\grpc\grpc-context\1.27.2\grpc-context-1.27.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.10.7\util-interface-1.10.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\trees_2.13\4.15.2\trees_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\libdaemon_2.13\0.0.12\libdaemon_2.13-0.0.12.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\snailgun\snailgun-core_2.13\0.4.1-sc2\snailgun-core_2.13-0.4.1-sc2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier_2.13\2.1.25-M23\coursier_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-archive-cache_2.13\2.1.25-M23\coursier-archive-cache_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-env_2.13\2.1.25-M23\coursier-env_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-exec\2.1.25-M23\coursier-exec-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\javaewah\JavaEWAH\1.2.3\JavaEWAH-1.2.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib\2.28.0\org.eclipse.xtend.lib-2.28.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\common_2.13\4.15.2\common_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\io_2.13\4.15.2\io_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-archiver\4.10.1\plexus-archiver-4.10.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-container-default\2.1.1\plexus-container-default-2.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\tika\tika-core\3.2.3\tika-core-3.2.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\luben\zstd-jni\1.5.7-4\zstd-jni-1.5.7-4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtext\org.eclipse.xtext.xbase.lib\2.28.0\org.eclipse.xtext.xbase.lib-2.28.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib.macro\2.28.0\org.eclipse.xtend.lib.macro-2.28.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-utils\4.0.2\plexus-utils-4.0.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-io\3.5.1\plexus-io-3.5.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\airlift\aircompressor\0.27\aircompressor-0.27.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\tukaani\xz\1.10\xz-1.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar, scala.cli.ScalaCli, bsp, D:\training\editions_eni\MinIO)
+2026.03.16 08:15:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\training\editions_eni\MinIO\.metals\bsp.trace.json or C:\Users\Soumabkar\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.16 08:15:27 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 08:15:27 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 08:15:28 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom
+2026.03.16 08:15:28 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 08:15:29 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom
+2026.03.16 08:15:29 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom.sha1
+2026.03.16 08:15:29 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom.sha1
+2026.03.16 08:15:29 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom
+2026.03.16 08:15:31 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.pom
+2026.03.16 08:15:31 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom
+2026.03.16 08:15:31 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.pom
+2026.03.16 08:15:31 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom
+2026.03.16 08:15:31 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom.sha1
+2026.03.16 08:15:32 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom.sha1
+2026.03.16 08:15:32 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.pom.sha1
+2026.03.16 08:15:32 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom.sha1
+2026.03.16 08:15:32 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom.sha1
+2026.03.16 08:15:32 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom.sha1
+2026.03.16 08:15:32 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom.sha1
+2026.03.16 08:15:32 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.pom.sha1
+2026.03.16 08:15:32 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.pom
+2026.03.16 08:15:32 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.pom
+2026.03.16 08:15:33 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.pom
+2026.03.16 08:15:33 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom
+2026.03.16 08:15:33 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom.sha1
+2026.03.16 08:15:33 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.pom
+2026.03.16 08:15:33 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.pom.sha1
+2026.03.16 08:15:33 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.pom.sha1
+2026.03.16 08:15:33 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.pom.sha1
+2026.03.16 08:15:33 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom
+2026.03.16 08:15:33 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom
+2026.03.16 08:15:33 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom.sha1
+2026.03.16 08:15:35 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom.sha1
+2026.03.16 08:15:35 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom
+2026.03.16 08:15:35 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom
+2026.03.16 08:15:35 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom.sha1
+2026.03.16 08:15:35 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-parent/1.5.27/logback-parent-1.5.27.pom.sha1
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.pom.sha1
+2026.03.16 08:15:36 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom.sha1
+2026.03.16 08:15:36 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom.sha1
+2026.03.16 08:15:36 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom.sha1
+2026.03.16 08:15:36 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.pom
+2026.03.16 08:15:36 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.pom
+2026.03.16 08:15:37 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:37 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.pom.sha1
+2026.03.16 08:15:40 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.pom
+2026.03.16 08:15:40 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.pom
+2026.03.16 08:15:40 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.pom
+2026.03.16 08:15:40 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.pom
+2026.03.16 08:15:40 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.pom
+2026.03.16 08:15:40 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:41 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.pom
+2026.03.16 08:15:41 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.pom
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.pom
+2026.03.16 08:15:42 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.pom
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.pom
+2026.03.16 08:15:42 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.pom
+2026.03.16 08:15:42 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:42 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.pom.sha1
+2026.03.16 08:15:44 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom.sha1
+2026.03.16 08:15:44 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.pom.sha1
+2026.03.16 08:15:44 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.pom
+2026.03.16 08:15:44 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:45 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.pom
+2026.03.16 08:15:45 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.pom.sha1
+2026.03.16 08:15:46 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.pom
+2026.03.16 08:15:46 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:47 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.pom
+2026.03.16 08:15:47 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:47 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:47 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:47 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.pom
+2026.03.16 08:15:47 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.pom
+2026.03.16 08:15:47 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.pom
+2026.03.16 08:15:47 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Failed to download https://central.sonatype.com/repository/maven-snapshots/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.pom
+2026.03.16 08:15:48 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.pom.sha1
+2026.03.16 08:15:48 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.pom.sha1
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.jar
+2026.03.16 08:15:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.jar
+2026.03.16 08:15:51 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.jar
+2026.03.16 08:15:53 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.jar
+2026.03.16 08:15:54 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.jar
+2026.03.16 08:15:56 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.jar
+2026.03.16 08:15:56 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.jar
+2026.03.16 08:15:57 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.jar
+2026.03.16 08:15:57 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.jar
+2026.03.16 08:15:59 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.jar
+2026.03.16 08:15:59 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar
+2026.03.16 08:15:59 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.jar
+2026.03.16 08:15:59 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.jar
+2026.03.16 08:15:59 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar
+2026.03.16 08:15:59 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.jar
+2026.03.16 08:15:59 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.jar
+2026.03.16 08:15:59 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.jar
+2026.03.16 08:16:01 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.jar
+2026.03.16 08:16:01 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.jar
+2026.03.16 08:16:01 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.jar
+2026.03.16 08:16:01 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.jar.sha1
+2026.03.16 08:16:01 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.jar
+2026.03.16 08:16:01 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:01 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.7/util-interface-1.11.7.jar.sha1
+2026.03.16 08:16:01 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc_2.12/1.12.0/zinc_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.jar
+2026.03.16 08:16:03 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-shared_2.12/2.0.19/bloop-shared_2.12-2.0.19.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-compile-core_2.12/1.12.0/zinc-compile-core_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-apiinfo_2.12/1.12.0/zinc-apiinfo_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-cache_2.12/1.11.7/util-cache_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:03 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/core-macros_2.12/1.11.7/core-macros_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/lihaoyi/pprint_2.12/0.9.6/pprint_2.12-0.9.6.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-interface/1.12.0/compiler-interface-1.12.0.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-backend_2.12/2.0.19/bloop-backend_2.12-2.0.19.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/2.27.5/jsch-2.27.5.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-position_2.12/1.11.7/util-position_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:04 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classpath_2.12/1.12.0/zinc-classpath_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-core_2.12/1.12.0/librarymanagement-core_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-core_2.12/1.12.0/zinc-core_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.jar
+2026.03.16 08:16:05 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/collections_2.12/1.11.7/collections_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-classfile_2.12/1.12.0/zinc-classfile_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/compiler-bridge_2.12/1.12.0/compiler-bridge_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:05 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.12.0/zinc-persist_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-core/1.5.27/logback-core-1.5.27.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/bloop-frontend_2.12/2.0.19/bloop-frontend_2.12-2.0.19.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/librarymanagement-ivy_2.12/1.12.0/librarymanagement-ivy_2.12-1.12.0.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/launcher-interface/1.5.2/launcher-interface-1.5.2.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist-core-assembly/1.12.0/zinc-persist-core-assembly-1.12.0.jar.sha1
+2026.03.16 08:16:06 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/test-agent/1.12.1/test-agent-1.12.1.jar.sha1
+2026.03.16 08:16:07 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.jar.sha1
+2026.03.16 08:16:07 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.jar.sha1
+2026.03.16 08:16:07 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:07 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.jar
+2026.03.16 08:16:07 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.jar.sha1
+2026.03.16 08:16:07 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-reflect/2.12.21/scala-reflect-2.12.21.jar.sha1
+2026.03.16 08:16:07 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/qos/logback/logback-classic/1.5.27/logback-classic-1.5.27.jar.sha1
+2026.03.16 08:16:07 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-logging_2.12/1.11.7/util-logging_2.12-1.11.7.jar.sha1
+2026.03.16 08:16:07 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-library/2.12.21/scala-library-2.12.21.jar.sha1
+2026.03.16 08:16:08 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.jar
+2026.03.16 08:16:08 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.jar.sha1
+2026.03.16 08:16:08 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.21/scala-compiler-2.12.21.jar.sha1
+2026.03.16 08:16:08 INFO  Scala CLI: Starting compilation server
+2026.03.16 08:16:11 ERROR Timeout waiting for 'build/initialize' response
+2026.03.16 08:16:11 WARN  Retrying connection to the build server Scala CLI
+2026.03.16 08:16:11 INFO  Running List(C:\Users\Soumabkar\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.18%252B8\OpenJDK17U-jdk_x64_windows_hotspot_17.0.18_8.zip\jdk-17.0.18+8\bin\java.exe, -cp, C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\cli_3\1.12.3\cli_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app_3\2.1.0\case-app_3-2.1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-launcher_2.13\2.1.25-M23\coursier-launcher_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-proxy-setup\2.1.25-M23\coursier-proxy-setup-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\publish\publish_3\0.4.4\publish_3-0.4.4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\jimfs\jimfs\1.3.1\jimfs-1.3.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\jniutils\windows-jni-utils\0.3.3\windows-jni-utils-0.3.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_3\2.38.8\jsoniter-scala-core_3-2.38.8.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\libsodiumjni\0.0.4\libsodiumjni-0.0.4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-typesafe-config_3\0.18.2\metaconfig-typesafe-config_3-0.18.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ai\kien\python-native-libs_3\0.2.5\python-native-libs_3-0.2.5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-packager_3\0.2.1\scala-packager_3-0.2.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\cli_3\0.2.13\cli_3-0.2.13.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-nop\2.0.17\slf4j-nop-2.0.17.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\client3\core_3\3.11.0\core_3-3.11.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\scalafix-interfaces\0.14.5\scalafix-interfaces-0.14.5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal_3\1.9.1\scala3-graal_3-1.9.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala3-graal-processor_3\1.9.1\scala3-graal-processor_3-1.9.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.7\scala3-library_3-3.3.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-module_3\1.12.3\build-module_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\config_3\1.12.3\config_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\specification-level_3\1.12.3\specification-level_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\sourcecode_3\0.4.3-M5\sourcecode_3-0.4.3-M5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-annotations_3\2.1.0\case-app-annotations_3-2.1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\alexarchambault\case-app-util_3\2.1.0\case-app-util_3-2.1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\tmp\zip-input-stream\0.1.1\zip-input-stream-0.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.18\scala-library-2.13.18.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-cache_2.13\2.1.25-M23\coursier-cache_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-core_2.13\2.1.25-M23\coursier-core_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-core_3\0.18.2\metaconfig-core_3-0.18.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.5\config-1.4.5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_3\2.14.0\scala-collection-compat_3-2.14.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-core\0.27.3\jib-core-0.27.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_3\0.11.8\os-lib_3-0.11.8.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcpg-jdk18on\1.83\bcpg-jdk18on-1.83.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcutil-jdk18on\1.83\bcutil-jdk18on-1.83.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli-signing\shared_3\0.2.13\shared_3-0.2.13.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\model\core_3\1.7.11\core_3-1.7.11.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\core_3\1.3.22\core_3-1.3.22.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\softwaremill\sttp\shared\ws_3\1.3.22\ws_3-1.3.22.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\interface\1.0.28\interface-1.0.28.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\ow2\asm\asm\9.9.1\asm-9.9.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\java-class-name\java-class-name_3\0.1.9\java-class-name_3-0.1.9.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-shared_2.13\4.15.2\semanticdb-shared_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\test-runner_3\0.5.10\test-runner_3-0.5.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\pprint_3\0.9.5\pprint_3-0.9.5.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-nodejs_3\1.5.0\scalajs-env-nodejs_3-1.5.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-sbt-test-adapter_2.13\1.20.2\scalajs-sbt-test-adapter_2.13-1.20.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\zip-input-stream\zip-input-stream\0.1.3\zip-input-stream-0.1.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\options_3\1.12.3\options_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\directives_3\1.12.3\directives_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\scala-cli-bsp\1.12.3\scala-cli-bsp-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\test-runner_3\1.12.3\test-runner_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\tasty-lib_3\1.12.3\tasty-lib_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\windows-ansi\windows-ansi\0.0.6\windows-ansi-0.0.6.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\cache-util\2.1.25-M23\cache-util-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-paths\2.1.25-M23\coursier-paths-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-util_2.13\2.1.25-M23\coursier-util_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\versions_2.13\0.5.1\versions_2.13-0.5.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\concurrent-reference-hash-map\1.1.0\concurrent-reference-hash-map-1.1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\2.4.0\scala-xml_2.13-2.4.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\metaconfig-pprint_3\0.18.2\metaconfig-pprint_3-0.18.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\paiges-core_3\0.4.4\paiges-core_3-0.4.4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.18\scala-reflect-2.13.18.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\cloud\tools\jib-build-plan\0.4.0\jib-build-plan-0.4.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client\1.42.2\google-http-client-1.42.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-apache-v2\1.42.2\google-http-client-apache-v2-1.42.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-oauth2-http\1.10.0\google-auth-library-oauth2-http-1.10.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_3\1.1.1\geny_3-1.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-zip\0.11.8\os-zip-0.11.8.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\bouncycastle\bcprov-jdk18on\1.83\bcprov-jdk18on-1.83.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jni\3.25.0\jline-terminal-jni-3.25.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline-native\3.25.0\jline-native-3.25.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-compiler_3\3.3.7\scala3-compiler_3-3.3.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalameta_2.13\4.15.2\scalameta_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scalap\2.13.15\scalap-2.13.15.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\scalapb-runtime_2.13\0.11.17\scalapb-runtime_2.13-0.11.17.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\tools_3\0.5.10\tools_3-0.5.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\fansi_3\0.5.1\fansi_3-0.5.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-js-envs_3\1.5.0\scalajs-js-envs_3-1.5.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.13\2.3.3\bloop-config_2.13-2.3.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\core_3\1.12.3\core_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\using_directives\1.1.4\using_directives-1.1.4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\virtuslab\scala-cli\build-macros_3\1.12.3\build-macros_3-1.12.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bsp4j\2.1.1\bsp4j-2.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\2.4.1\jansi-2.4.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\is-terminal\0.1.2\is-terminal-0.1.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-api\0.31.1\opencensus-api-0.31.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\opencensus\opencensus-contrib-http-util\0.31.1\opencensus-contrib-http-util-0.31.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auto\value\auto-value-annotations\1.9\auto-value-annotations-1.9.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\auth\google-auth-library-credentials\1.10.0\google-auth-library-credentials-1.10.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\http-client\google-http-client-gson\1.42.2\google-http-client-gson-1.42.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-interfaces\3.3.7\scala3-interfaces-3.3.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\tasty-core_3\3.3.7\tasty-core_3-3.3.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-asm\9.8.0-scala-1\scala-asm-9.8.0-scala-1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.10.7\compiler-interface-1.10.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\parsers_2.13\4.15.2\parsers_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.15\scala-compiler-2.13.15.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thesamet\scalapb\lenses_2.13\0.11.17\lenses_2.13-0.11.17.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.19.6\protobuf-java-3.19.6.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\nir_3\0.5.10\nir_3-0.5.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-native\util_3\0.5.10\util_3-0.5.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-logging_3\1.2.0\scalajs-logging_3-1.2.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.13\0.1.12\unroll-annotation_2.13-0.1.12.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-rifle_2.13\2.0.19\bloop-rifle_2.13-2.0.19.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-jvm_2.13\2.1.25-M23\coursier-jvm_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\dependency_3\0.3.2\dependency_3-0.3.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jgit\org.eclipse.jgit\7.5.0.202512021534-r\org.eclipse.jgit-7.5.0.202512021534-r.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-js\scalajs-env-jsdom-nodejs_2.13\1.1.1\scalajs-env-jsdom-nodejs_2.13-1.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.generator\0.20.1\org.eclipse.lsp4j.generator-0.20.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\lsp4j\org.eclipse.lsp4j.jsonrpc\0.20.1\org.eclipse.lsp4j.jsonrpc-0.20.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\grpc\grpc-context\1.27.2\grpc-context-1.27.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.10.7\util-interface-1.10.7.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\trees_2.13\4.15.2\trees_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\libdaemon_2.13\0.0.12\libdaemon_2.13-0.0.12.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\scala-cli\snailgun\snailgun-core_2.13\0.4.1-sc2\snailgun-core_2.13-0.4.1-sc2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier_2.13\2.1.25-M23\coursier_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-archive-cache_2.13\2.1.25-M23\coursier-archive-cache_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-env_2.13\2.1.25-M23\coursier-env_2.13-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\coursier-exec\2.1.25-M23\coursier-exec-2.1.25-M23.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\javaewah\JavaEWAH\1.2.3\JavaEWAH-1.2.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib\2.28.0\org.eclipse.xtend.lib-2.28.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\common_2.13\4.15.2\common_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\io_2.13\4.15.2\io_2.13-4.15.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-archiver\4.10.1\plexus-archiver-4.10.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-container-default\2.1.1\plexus-container-default-2.1.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\tika\tika-core\3.2.3\tika-core-3.2.3.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\luben\zstd-jni\1.5.7-4\zstd-jni-1.5.7-4.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtext\org.eclipse.xtext.xbase.lib\2.28.0\org.eclipse.xtext.xbase.lib-2.28.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\xtend\org.eclipse.xtend.lib.macro\2.28.0\org.eclipse.xtend.lib.macro-2.28.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-utils\4.0.2\plexus-utils-4.0.2.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-io\3.5.1\plexus-io-3.5.1.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\airlift\aircompressor\0.27\aircompressor-0.27.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\tukaani\xz\1.10\xz-1.10.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\Soumabkar\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar, scala.cli.ScalaCli, bsp, D:\training\editions_eni\MinIO)
+2026.03.16 08:16:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\training\editions_eni\MinIO\.metals\bsp.trace.json or C:\Users\Soumabkar\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.16 08:16:24 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.8.2/scala3-compiler_3-3.8.2.pom
+2026.03.16 08:16:25 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.8.2/scala3-compiler_3-3.8.2.pom
+2026.03.16 08:16:25 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2.pom
+2026.03.16 08:16:25 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.8.2/scala3-interfaces-3.8.2.pom
+2026.03.16 08:16:25 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.8.2/tasty-core_3-3.8.2.pom
+2026.03.16 08:16:25 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2.pom
+2026.03.16 08:16:25 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.8.2/tasty-core_3-3.8.2.pom
+2026.03.16 08:16:25 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.8.2/scala3-interfaces-3.8.2.pom
+2026.03.16 08:16:25 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2.pom
+2026.03.16 08:16:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2.pom
+2026.03.16 08:16:26 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.8.2/scala3-interfaces-3.8.2.jar
+2026.03.16 08:16:26 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2.jar
+2026.03.16 08:16:26 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.8.2/tasty-core_3-3.8.2.jar
+2026.03.16 08:16:26 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2.jar
+2026.03.16 08:16:26 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.8.2/scala3-compiler_3-3.8.2.jar
+2026.03.16 08:16:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.8.2/scala3-interfaces-3.8.2.jar
+2026.03.16 08:16:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.8.2/tasty-core_3-3.8.2.jar
+2026.03.16 08:16:26 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2.jar
+2026.03.16 08:16:33 INFO  Scala CLI: Still downloading:
+2026.03.16 08:16:33 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2.jar (39,07 %, 3584128 / 9174076)
+2026.03.16 08:16:33 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.8.2/scala3-compiler_3-3.8.2.jar (32,69 %, 7620416 / 23309607)
+2026.03.16 08:16:33 INFO  Scala CLI: 
+2026.03.16 08:16:35 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 08:16:35 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/config/SparkConfig.scala
+2026.03.16 08:16:38 INFO  Scala CLI: Still downloading:
+2026.03.16 08:16:38 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.8.2/scala3-compiler_3-3.8.2.jar (63,44 %, 14788288 / 23309607)
+2026.03.16 08:16:38 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2.jar (62,64 %, 5746816 / 9174076)
+2026.03.16 08:16:38 INFO  Scala CLI: 
+2026.03.16 08:16:44 INFO  Scala CLI: Still downloading:
+2026.03.16 08:16:44 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2.jar (94,97 %, 8712320 / 9174076)
+2026.03.16 08:16:44 INFO  Scala CLI: https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.8.2/scala3-compiler_3-3.8.2.jar (84,57 %, 19712448 / 23309607)
+2026.03.16 08:16:44 INFO  Scala CLI: 
+2026.03.16 08:16:44 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2.jar
+2026.03.16 08:16:45 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 08:16:45 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 08:16:46 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 08:16:47 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.8.2/scala3-compiler_3-3.8.2.jar
+2026.03.16 08:16:47 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.2/scala3-sbt-bridge-3.8.2.pom
+2026.03.16 08:16:47 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.2/scala3-sbt-bridge-3.8.2.pom
+2026.03.16 08:16:47 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.2/scala3-repl_3-3.8.2.pom
+2026.03.16 08:16:47 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.2/scala3-repl_3-3.8.2.pom
+2026.03.16 08:16:49 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.2/scala3-sbt-bridge-3.8.2.jar
+2026.03.16 08:16:49 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.2/scala3-repl_3-3.8.2.jar
+2026.03.16 08:16:49 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.2/scala3-sbt-bridge-3.8.2.jar
+2026.03.16 08:16:49 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.2/scala3-sbt-bridge-3.8.2.jar.sha1
+2026.03.16 08:16:49 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.2/scala3-sbt-bridge-3.8.2.jar.sha1
+2026.03.16 08:16:50 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.2/scala3-repl_3-3.8.2.jar
+2026.03.16 08:16:50 INFO  Scala CLI: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.2/scala3-repl_3-3.8.2.jar.sha1
+2026.03.16 08:16:50 INFO  Scala CLI: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.2/scala3-repl_3-3.8.2.jar.sha1
+2026.03.16 08:16:50 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2-sources.jar
+2026.03.16 08:16:50 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2-sources.jar
+2026.03.16 08:16:50 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2-sources.jar
+2026.03.16 08:16:52 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2-sources.jar
+2026.03.16 08:16:53 INFO  Connected to Scala CLI server v1.12.3
+2026.03.16 08:16:57 INFO  compiling minio_d5c0a6989e (2 scala sources)
+2026.03.16 08:17:08 INFO  time: compiled MinIO_d5c0a6989e in 10s
+2026.03.16 08:17:08 INFO  compiling minio_d5c0a6989e (2 scala sources)
+2026.03.16 08:17:09 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.16 08:17:12 INFO  time: compiled MinIO_d5c0a6989e in 4.32s
+2026.03.16 08:17:28 INFO  compiling minio_d5c0a6989e (2 scala sources)
+2026.03.16 08:17:31 INFO  time: compiled MinIO_d5c0a6989e in 2.47s
+2026.03.16 08:17:44 INFO  time: indexed workspace in 49s
+2026.03.16 08:17:46 INFO  compiling minio_d5c0a6989e (2 scala sources)
+2026.03.16 08:17:48 INFO  time: compiled MinIO_d5c0a6989e in 1.45s
+2026.03.16 08:17:49 WARN  No build server connected
+2026.03.16 08:17:49 INFO  compiling minio_d5c0a6989e (3 scala sources)
+2026.03.16 08:17:52 INFO  time: compiled MinIO_d5c0a6989e in 2.5s
+2026.03.16 08:17:52 INFO  compiling minio_d5c0a6989e (3 scala sources)
+2026.03.16 08:17:53 INFO  time: compiled MinIO_d5c0a6989e in 1.05s
+mars 16, 2026 8:18:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 46
+mars 16, 2026 8:18:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 43
+mars 16, 2026 8:18:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 51
+mars 16, 2026 8:18:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 53
+mars 16, 2026 8:18:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 55
+mars 16, 2026 8:18:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 54
+mars 16, 2026 8:18:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 52
+2026.03.16 08:18:12 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:18:12 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:18:12 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:18:13 INFO  Scala CLI started for D:\training\editions_eni\MinIO
+2026.03.16 08:18:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:18:13 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala
+2026.03.16 08:18:13 WARN  no build tool detected in workspace 'D:\training\editions_eni\MinIO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.16 08:18:13 WARN  Build server is not auto-connectable.
+2026.03.16 08:18:13 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt
+2026.03.16 08:18:14 INFO  compiling minio_d5c0a6989e (3 scala sources)
+2026.03.16 08:18:14 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:18:14 INFO  time: code lens generation in 1.82s
+2026.03.16 08:18:18 INFO  time: compiled MinIO_d5c0a6989e in 3.43s
+2026.03.16 08:18:40 WARN  No build server connected
+2026.03.16 08:18:40 INFO  compiling minio_d5c0a6989e (4 scala sources)
+2026.03.16 08:18:44 INFO  time: compiled MinIO_d5c0a6989e in 3.4s
+2026.03.16 08:18:44 INFO  compiling minio_d5c0a6989e (4 scala sources)
+2026.03.16 08:18:46 INFO  time: compiled MinIO_d5c0a6989e in 2.47s
+2026.03.16 08:18:54 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:18:54 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala
+mars 16, 2026 8:18:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 79
+mars 16, 2026 8:18:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 78
+mars 16, 2026 8:18:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 81
+mars 16, 2026 8:18:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 83
+mars 16, 2026 8:18:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 84
+mars 16, 2026 8:18:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 90
+2026.03.16 08:19:15 WARN  No build server connected
+2026.03.16 08:19:15 INFO  compiling minio_d5c0a6989e (5 scala sources)
+2026.03.16 08:19:18 INFO  time: compiled MinIO_d5c0a6989e in 2.23s
+2026.03.16 08:19:18 INFO  compiling minio_d5c0a6989e (5 scala sources)
+2026.03.16 08:19:20 INFO  time: compiled MinIO_d5c0a6989e in 1.86s
+2026.03.16 08:19:27 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:19:27 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala
+mars 16, 2026 8:19:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 97
+mars 16, 2026 8:19:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 96
+mars 16, 2026 8:19:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 95
+mars 16, 2026 8:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 98
+mars 16, 2026 8:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 100
+mars 16, 2026 8:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 105
+mars 16, 2026 8:19:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 107
+2026.03.16 08:21:39 WARN  No build server connected
+2026.03.16 08:21:39 INFO  compiling minio_d5c0a6989e (6 scala sources)
+2026.03.16 08:21:42 INFO  time: compiled MinIO_d5c0a6989e in 2.01s
+2026.03.16 08:21:42 INFO  compiling minio_d5c0a6989e (6 scala sources)
+2026.03.16 08:21:44 INFO  time: compiled MinIO_d5c0a6989e in 1.98s
+2026.03.16 08:21:53 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsListener.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:21:53 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsListener.scala
+mars 16, 2026 8:21:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 116
+mars 16, 2026 8:21:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 115
+mars 16, 2026 8:21:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 114
+mars 16, 2026 8:21:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 113
+mars 16, 2026 8:21:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 118
+mars 16, 2026 8:21:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 119
+mars 16, 2026 8:21:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 123
+mars 16, 2026 8:21:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 124
+2026.03.16 08:22:47 WARN  No build server connected
+2026.03.16 08:22:47 INFO  compiling minio_d5c0a6989e (7 scala sources)
+2026.03.16 08:22:50 INFO  time: compiled MinIO_d5c0a6989e in 2.41s
+2026.03.16 08:22:50 INFO  compiling minio_d5c0a6989e (7 scala sources)
+2026.03.16 08:22:52 INFO  time: compiled MinIO_d5c0a6989e in 1.59s
+2026.03.16 08:23:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:23:00 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala
+mars 16, 2026 8:23:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 132
+mars 16, 2026 8:23:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 131
+mars 16, 2026 8:23:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 130
+mars 16, 2026 8:23:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 135
+mars 16, 2026 8:23:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 136
+mars 16, 2026 8:23:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 141
+mars 16, 2026 8:23:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 142
+2026.03.16 08:23:05 INFO  Created report: Optional[file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/metrics/ETLMetrics.scala]
+2026.03.16 08:23:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-16\r_empty-definition_(MinIO_5fd5c0a6989e)_08-23-05-109.md")
+2026.03.16 08:24:33 WARN  No build server connected
+2026.03.16 08:24:33 INFO  compiling minio_d5c0a6989e (8 scala sources)
+2026.03.16 08:24:35 INFO  time: compiled MinIO_d5c0a6989e in 1.82s
+2026.03.16 08:24:35 INFO  compiling minio_d5c0a6989e (8 scala sources)
+2026.03.16 08:24:37 INFO  time: compiled MinIO_d5c0a6989e in 1.57s
+2026.03.16 08:24:45 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:24:45 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 148
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 149
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 151
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 150
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 153
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 152
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 156
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 155
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 158
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 154
+mars 16, 2026 8:24:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 161
+2026.03.16 08:24:47 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/metrics/sampleInETL.scala
+mars 16, 2026 8:24:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 162
+mars 16, 2026 8:24:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 163
+mars 16, 2026 8:24:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 164
+mars 16, 2026 8:24:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 165
+mars 16, 2026 8:24:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 171
+mars 16, 2026 8:24:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 173
+mars 16, 2026 8:24:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 175
+mars 16, 2026 8:24:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 176
+mars 16, 2026 8:24:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 178
+mars 16, 2026 8:24:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 180
+2026.03.16 08:24:51 INFO  compiling minio_d5c0a6989e (8 scala sources)
+2026.03.16 08:24:51 INFO  Created report: Optional[file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/metrics/sampleInETL.scala]
+2026.03.16 08:24:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-16\r_empty-definition_(MinIO_5fd5c0a6989e)_08-24-51-292.md")
+2026.03.16 08:24:53 INFO  time: compiled MinIO_d5c0a6989e in 2.27s
+2026.03.16 08:26:09 WARN  No build server connected
+2026.03.16 08:26:09 INFO  compiling minio_d5c0a6989e (9 scala sources)
+2026.03.16 08:26:11 INFO  time: compiled MinIO_d5c0a6989e in 1.62s
+2026.03.16 08:26:11 INFO  compiling minio_d5c0a6989e (9 scala sources)
+2026.03.16 08:26:13 INFO  time: compiled MinIO_d5c0a6989e in 1.53s
+2026.03.16 08:26:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:26:21 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala
+mars 16, 2026 8:26:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 191
+mars 16, 2026 8:26:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 190
+mars 16, 2026 8:26:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 192
+mars 16, 2026 8:26:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 189
+mars 16, 2026 8:26:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 197
+2026.03.16 08:26:29 INFO  compiling minio_d5c0a6989e (9 scala sources)
+2026.03.16 08:26:31 INFO  time: compiled MinIO_d5c0a6989e in 1.77s
+mars 16, 2026 8:26:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 203
+2026.03.16 08:27:16 WARN  No build server connected
+2026.03.16 08:27:16 INFO  compiling minio_d5c0a6989e (10 scala sources)
+2026.03.16 08:27:18 INFO  time: compiled MinIO_d5c0a6989e in 1.81s
+2026.03.16 08:27:18 INFO  compiling minio_d5c0a6989e (10 scala sources)
+2026.03.16 08:27:21 INFO  time: compiled MinIO_d5c0a6989e in 1.98s
+2026.03.16 08:27:32 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\TimedStage.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:27:32 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\TimedStage.scala
+mars 16, 2026 8:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 213
+mars 16, 2026 8:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 215
+mars 16, 2026 8:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 212
+mars 16, 2026 8:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 211
+mars 16, 2026 8:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 216
+mars 16, 2026 8:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 210
+mars 16, 2026 8:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 220
+mars 16, 2026 8:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 222
+2026.03.16 08:27:33 INFO  compiling minio_d5c0a6989e (10 scala sources)
+2026.03.16 08:27:35 INFO  time: compiled MinIO_d5c0a6989e in 1.35s
+2026.03.16 08:28:27 WARN  No build server connected
+2026.03.16 08:28:27 INFO  compiling minio_d5c0a6989e (11 scala sources)
+2026.03.16 08:28:30 INFO  time: compiled MinIO_d5c0a6989e in 2.33s
+2026.03.16 08:28:30 INFO  compiling minio_d5c0a6989e (11 scala sources)
+2026.03.16 08:28:32 INFO  time: compiled MinIO_d5c0a6989e in 1.89s
+2026.03.16 08:28:40 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\UseMetricsInMain.scala. Using presentation compiler with project's scala-library version: 3.8.2
+2026.03.16 08:28:40 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\UseMetricsInMain.scala
+2026.03.16 08:28:43 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/metrics/UseMetricsInMain.scala
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 233
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 232
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 230
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 234
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 235
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 238
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 239
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 240
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 241
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 242
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 243
+mars 16, 2026 8:28:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 244
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 246
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 247
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 249
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 250
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 251
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 252
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 253
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 254
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 256
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 257
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 260
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 263
+mars 16, 2026 8:28:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 269
+2026.03.16 08:28:45 INFO  compiling minio_d5c0a6989e (11 scala sources)
+2026.03.16 08:28:48 INFO  time: compiled MinIO_d5c0a6989e in 2.49s
+2026.03.16 08:28:48 INFO  compiling minio_d5c0a6989e (11 scala sources)
+2026.03.16 08:28:51 INFO  time: compiled MinIO_d5c0a6989e in 2.15s
+mars 16, 2026 8:28:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 273
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 271
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 270
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 268
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 272
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 274
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 278
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 280
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 279
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 264
+mars 16, 2026 8:28:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 255
+2026.03.16 08:28:59 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.8.2
+mars 16, 2026 8:29:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 281
+mars 16, 2026 8:29:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 284
+mars 16, 2026 8:29:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 285
+mars 16, 2026 8:29:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 286
+mars 16, 2026 8:29:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 288
+mars 16, 2026 8:29:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 291
+2026.03.16 08:29:00 INFO  compiling minio_d5c0a6989e (11 scala sources)
+2026.03.16 08:29:02 INFO  time: compiled MinIO_d5c0a6989e in 1.64s
+2026.03.16 08:29:10 INFO  Created report: Optional[file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/metrics/UseMetricsInMain.scala]
+2026.03.16 08:29:10 INFO  empty definition using pc, found symbol in pc: cleanAndEnrich. (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-16\r_empty-definition_(MinIO_5fd5c0a6989e)_08-29-10-556.md")
+2026.03.16 08:29:17 INFO  compiling minio_d5c0a6989e (11 scala sources)
+2026.03.16 08:29:19 INFO  time: compiled MinIO_d5c0a6989e in 1.9s

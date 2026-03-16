@@ -22,6 +22,26 @@ services:
     networks:
       - datalake-network
 
+  minio-setup:
+    image: minio/mc:latest
+    container_name: minio-setup
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+      /usr/bin/mc alias set myminio http://minio:9000 admin abdoul1201;
+      /usr/bin/mc mb myminio/warehouse --ignore-existing;
+      /usr/bin/mc mb myminio/raw-data --ignore-existing;
+      /usr/bin/mc mb myminio/processed --ignore-existing;
+      /usr/bin/mc policy set public myminio/warehouse;
+      /usr/bin/mc policy set public myminio/raw-data;
+      /usr/bin/mc policy set public myminio/processed;
+      echo 'MinIO setup completed';
+      "
+    networks:
+      - datalake-network
+
   metastore-db:
     image: postgres:18.0-alpine
     container_name: metastore-db
