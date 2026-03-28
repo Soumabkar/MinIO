@@ -798,3 +798,35 @@ AVERTISSEMENT: Unmatched cancel notification for request id 291
 2026.03.16 08:29:10 INFO  empty definition using pc, found symbol in pc: cleanAndEnrich. (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-16\r_empty-definition_(MinIO_5fd5c0a6989e)_08-29-10-556.md")
 2026.03.16 08:29:17 INFO  compiling minio_d5c0a6989e (11 scala sources)
 2026.03.16 08:29:19 INFO  time: compiled MinIO_d5c0a6989e in 1.9s
+2026.03.16 08:31:58 INFO  Shutting down server
+2026.03.16 08:31:58 INFO  Memory monitor stopped
+2026.03.16 08:31:58 INFO  shutting down Metals
+2026.03.16 08:31:58 INFO  Shut down connection with build server.
+2026.03.23 00:17:24 INFO  Started: Metals version 1.6.6 in folders 'D:\training\editions_eni\MinIO' for client Visual Studio Code 1.111.0.
+2026.03.23 00:17:24 INFO  Memory monitor started
+2026.03.23 00:17:29 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.23 00:17:33 WARN  no build tool detected in workspace 'D:\training\editions_eni\MinIO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.23 00:17:33 WARN  Build server is not auto-connectable.
+mars 23, 2026 12:19:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+mars 23, 2026 12:19:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+mars 23, 2026 12:19:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+mars 23, 2026 12:19:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+mars 23, 2026 12:19:31 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2026.03.23 02:18:19 INFO  Shutting down server
+2026.03.23 02:18:19 INFO  Memory monitor stopped
+2026.03.23 02:18:19 INFO  shutting down Metals
+2026.03.23 02:19:28 INFO  Started: Metals version 1.6.6 in folders 'D:\training\editions_eni\MinIO' for client Visual Studio Code 1.112.0.
+2026.03.23 02:19:28 INFO  Memory monitor started
+2026.03.23 02:19:34 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.23 02:19:34 WARN  no build tool detected in workspace 'D:\training\editions_eni\MinIO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.23 02:19:34 WARN  Build server is not auto-connectable.
+2026.03.25 06:42:06 INFO  Started: Metals version 1.6.6 in folders 'D:\training\editions_eni\MinIO' for client Visual Studio Code 1.112.0.
+2026.03.25 06:42:06 INFO  Memory monitor started
+2026.03.25 06:42:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.25 06:42:12 WARN  no build tool detected in workspace 'D:\training\editions_eni\MinIO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.25 06:42:13 WARN  Build server is not auto-connectable.

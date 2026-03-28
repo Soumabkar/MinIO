@@ -43,7 +43,7 @@ services:
       - datalake-network
 
   metastore-db:
-    image: postgres:18.0-alpine
+    image: postgres:15
     container_name: metastore-db
     hostname: metastore-db
     ports:
@@ -92,8 +92,7 @@ services:
       - datalake-network
 
   trino:
-    image: trinodb/trino:477
-    platform: linux/amd64   # ← forcer l'architecture
+    image: trinodb/trino
     container_name: trino
     hostname: trino
     depends_on:

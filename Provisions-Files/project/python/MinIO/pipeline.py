@@ -34,7 +34,7 @@ from pyspark.sql.types import ( DoubleType, IntegerType, StringType, StructField
 MINIO_ENDPOINT   = os.getenv("MINIO_ENDPOINT",    "localhost:9000")
 MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY",  "admin")
 MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY",  "abdoul1201")
-MINIO_BUCKET     = os.getenv("MINIO_BUCKET",      "warehouse")
+MINIO_BUCKET     = os.getenv("MINIO_BUCKET",      "datalake")
 
 TRINO_HOST       = os.getenv("TRINO_HOST",         "localhost")
 TRINO_PORT       = int(os.getenv("TRINO_PORT",     "8080"))
@@ -122,8 +122,6 @@ def generate_orders(
 # ═════════════════════════════════════════════════════════
 
 class MinIOLoader:
-    """Gère l'upload de DataFrames Pandas vers MinIO en format Parquet."""
-
     def __init__(self):
         self.client = Minio(
             MINIO_ENDPOINT,
@@ -134,7 +132,13 @@ class MinIOLoader:
         self._ensure_bucket(MINIO_BUCKET)
 
     def _ensure_bucket(self, bucket: str) -> None:
-        if not self.client.bucket_exists(bucket):
+        try:
+            found = self.client.bucket_exists(bucket)
+        except Exception:
+            # Contournement bug SDK — vérifier via list_buckets
+            found = any(b.name == bucket for b in self.client.list_buckets())
+        
+        if not found:
             self.client.make_bucket(bucket)
             log.info(f"Bucket '{bucket}' créé.")
         else:
@@ -168,7 +172,7 @@ class MinIOLoader:
     def _upload_to_minio(self, df: pd.DataFrame, object_name: str) -> None:
         table = pa.Table.from_pandas(df, preserve_index=False)
         buf = io.BytesIO()
-        pq.write_table(table, buf, compression="snappy")
+        pq.write_table(table, buf, compression="snappy" , coerce_timestamps="us", allow_truncated_timestamps=True)
         buf.seek(0)
         size = buf.getbuffer().nbytes
         self.client.put_object(

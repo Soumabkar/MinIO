@@ -23,7 +23,7 @@ services:
       - datalake-network
 
   metastore-db:
-    image: postgres:18.0-alpine
+    image: postgres:15
     container_name: metastore-db
     hostname: metastore-db
     ports:
@@ -72,8 +72,7 @@ services:
       - datalake-network
 
   trino:
-    image: trinodb/trino:477
-    platform: linux/amd64   # ← forcer l'architecture
+    image: trinodb/trino:466
     container_name: trino
     hostname: trino
     depends_on:
@@ -83,7 +82,7 @@ services:
       - "8080:8080"
     volumes:
       - ./trino-config:/etc/trino:ro
-      - trino-data:/data/trino
+      #- trino-data:/data/trino
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:8080/v1/info || exit 1"]
       interval: 30s
@@ -95,7 +94,7 @@ services:
 volumes:
   minio-data:
   postgres-data:
-  trino-data:
+ # trino-data:
 
 networks:
   datalake-network:

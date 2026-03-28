@@ -1,2 +1,12 @@
-.vargrant/*
+.vagrant/*
 venv/*
+__pycache__/*
+*.pyc
+.DS_Store
+.idea/*
+*.log
+*.sqlite3
+*.db
+venv/
+.metals/*
+.scala-build/*
