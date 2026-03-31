@@ -1,16 +1,53 @@
+"""
+=============================================================
+  Lakehouse Pipeline – MinIO + Hive + Trino + Spark
+=============================================================
+  Étapes :
+    1. Génération de données fictives (Faker)
+    2. Chargement des fichiers Parquet dans MinIO
+    3. Création du schéma et des tables Hive via Trino
+    4. Lecture des données avec PySpark
+    5. Requêtes analytiques avec Trino
+=============================================================
+"""
+
 import logging
+from faker import Faker
+from Entity.Data import Customers, Products, Orders
 from Datawarehouse.Minio import MinIOLoader
-from Entity.Data import Customers, Products, Orders 
-from SqlEngine.Trino import TrinoManager 
-from Spark.SparkMinIo import SparkProcessor 
+from SqlEngine.Trino import TrinoManager
+from Spark.SparkMinIo import SparkProcessor
+from utils.env import env, env_int
+
+
+# ─────────────────────────────────────────────────────────
+# Configuration
+# ─────────────────────────────────────────────────────────
+MINIO_ENDPOINT   = env("MINIO_ENDPOINT")
+MINIO_ACCESS_KEY = env("MINIO_ACCESS_KEY")
+MINIO_SECRET_KEY = env("MINIO_SECRET_KEY")
+MINIO_BUCKET     = env("MINIO_BUCKET")
+
+TRINO_HOST       = env("TRINO_HOST")
+TRINO_PORT       = env_int("TRINO_PORT")
+TRINO_USER       = env("TRINO_USER")
+TRINO_CATALOG    = "hive"
+TRINO_SCHEMA     = "ecommerce"
+
+SPARK_MASTER     = env("SPARK_MASTER")
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
 log = logging.getLogger(__name__)
+fake = Faker("fr_FR")
 
-if __name__ == "__main__":
+# ═════════════════════════════════════════════════════════
+#  PIPELINE PRINCIPAL
+# ═════════════════════════════════════════════════════════
+
+def main():
     log.info("=" * 60)
     log.info("  🚀  Démarrage du Pipeline Lakehouse")
     log.info("=" * 60)
@@ -18,7 +55,7 @@ if __name__ == "__main__":
     # ── 1. Génération des données ──────────────────────────
     log.info("\n📦  [1/5] Génération des données...")
     customers = Customers()
-    products  = Products()  
+    products  = Products()
     orders    = Orders()
     customers_df = customers.generate_customers(500)
     products_df  = products.generate_products(100)
@@ -32,13 +69,9 @@ if __name__ == "__main__":
     loader = MinIOLoader()
     loader.upload_dataframe(customers_df, "warehouse/customers")
     loader.upload_dataframe(products_df,  "warehouse/products")
-    loader.upload_dataframe(
-        orders_df,
-        "warehouse/orders",
-        partition_cols=["year", "month"],
-    )
+    loader.upload_dataframe(orders_df,  "warehouse/orders", partition_cols=["year", "month"], )
 
-    # Liste des objets uploadés
+        # Liste des objets uploadés
     objects = loader.list_objects("warehouse/")
     log.info(f"  {len(objects)} objets dans MinIO/warehouse")
 
@@ -55,9 +88,9 @@ if __name__ == "__main__":
     log.info("\n⚡  [4/5] Lecture et calculs PySpark...")
     spark_proc = SparkProcessor()
     try:
-        orders_spark   = spark_proc.read_parquet("data_row/orders")
-        customers_spark = spark_proc.read_parquet("data_row/customers")
-        products_spark  = spark_proc.read_parquet("data_row/products")
+        orders_spark   = spark_proc.read_parquet("warehouse/orders")
+        customers_spark = spark_proc.read_parquet("warehouse/customers")
+        products_spark  = spark_proc.read_parquet("warehouse/products")
 
         log.info(f"  Orders  : {orders_spark.count():>6} lignes | Partitions: {orders_spark.rdd.getNumPartitions()}")
         log.info(f"  Customers: {customers_spark.count():>5} lignes")
@@ -73,3 +106,8 @@ if __name__ == "__main__":
     trino_mgr.run_analytics()
 
     log.info("\n✅  Pipeline terminé avec succès !")
+
+   
+
+if __name__ == "__main__":
+    main()
