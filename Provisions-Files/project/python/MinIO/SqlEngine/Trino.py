@@ -10,6 +10,7 @@ TRINO_USER       = env("TRINO_USER")
 TRINO_CATALOG    = env("TRINO_CATALOG")
 TRINO_SCHEMA     = env("TRINO_SCHEMA")
 MINIO_BUCKET     = env("MINIO_BUCKET")
+DATA_FOLDER      = env("DATA_FOLDER")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -37,17 +38,17 @@ class TrinoManager:
             return cursor.fetchall(), [desc[0] for desc in cursor.description]
         return cursor
 
-    def create_schema(self, bucket: str = MINIO_BUCKET) -> None:
-        s3_location = f"s3a://{bucket}/warehouse"
+    def create_schema(self, bucket: str = MINIO_BUCKET, data_folder: str = DATA_FOLDER, catalog: str = TRINO_CATALOG, schema: str = TRINO_SCHEMA) -> None:
+        s3_location = f"s3a://{bucket}/{data_folder}"
         self.execute(f"""
-            CREATE SCHEMA IF NOT EXISTS {TRINO_CATALOG}.{TRINO_SCHEMA}
+            CREATE SCHEMA IF NOT EXISTS {catalog}.{schema}
             WITH (location = '{s3_location}')
         """)
-        log.info(f"Schéma '{TRINO_SCHEMA}' prêt.")
+        log.info(f"Schéma '{schema}' prêt.")
 
-    def create_table_customers(self ,  bucket: str = MINIO_BUCKET) -> None:
+    def create_table_customers(self ,  bucket: str = MINIO_BUCKET, data_folder: str = DATA_FOLDER, catalog: str = TRINO_CATALOG, schema: str = TRINO_SCHEMA , table_name: str = "customers") -> None:
         self.execute(f"""
-            CREATE TABLE IF NOT EXISTS {TRINO_CATALOG}.{TRINO_SCHEMA}.customers (
+            CREATE TABLE IF NOT EXISTS {catalog}.{schema}.{table_name} (
                 customer_id  INTEGER,
                 first_name   VARCHAR,
                 last_name    VARCHAR,
@@ -58,14 +59,14 @@ class TrinoManager:
             )
             WITH (
                 format           = 'PARQUET',
-                external_location = 's3a://{bucket}/warehouse/customers'
+                external_location = 's3a://{bucket}/{data_folder}/{table_name}'
             )
         """)
-        log.info("Table 'customers' créée.")
+        log.info(f"Table '{table_name}' créée.")
 
-    def create_table_products(self, bucket: str = MINIO_BUCKET) -> None:
+    def create_table_products(self, bucket: str = MINIO_BUCKET, data_folder: str = DATA_FOLDER, catalog: str = TRINO_CATALOG, schema: str = TRINO_SCHEMA, table_name: str = "products") -> None:
         self.execute(f"""
-            CREATE TABLE IF NOT EXISTS {TRINO_CATALOG}.{TRINO_SCHEMA}.products (
+            CREATE TABLE IF NOT EXISTS {catalog}.{schema}.{table_name} (
                 product_id  INTEGER,
                 name        VARCHAR,
                 category    VARCHAR,
@@ -74,15 +75,15 @@ class TrinoManager:
             )
             WITH (
                 format           = 'PARQUET',
-                external_location = 's3a://{bucket}/warehouse/products'
+                external_location = 's3a://{bucket}/{data_folder}/{table_name}'
             )
         """)
-        log.info("Table 'products' créée.")
+        log.info(f"Table '{table_name}' créée.")
 
-    def create_table_orders(self, bucket: str = MINIO_BUCKET) -> None:
+    def create_table_orders(self, bucket: str = MINIO_BUCKET, data_folder: str = DATA_FOLDER, catalog: str = TRINO_CATALOG, schema: str = TRINO_SCHEMA, table_name: str = "orders") -> None:
         """Table partitionnée par année et mois."""
         self.execute(f"""
-            CREATE TABLE IF NOT EXISTS {TRINO_CATALOG}.{TRINO_SCHEMA}.orders (
+            CREATE TABLE IF NOT EXISTS {catalog}.{schema}.{table_name} (
                 order_id      INTEGER,
                 customer_id   INTEGER,
                 product_id    INTEGER,
@@ -96,18 +97,18 @@ class TrinoManager:
             )
             WITH (
                 format             = 'PARQUET',
-                external_location  = 's3a://{bucket}/warehouse/orders',
+                external_location  = 's3a://{bucket}/{data_folder}/{table_name}',
                 partitioned_by     = ARRAY['year', 'month']
             )
         """)
-        log.info("Table 'orders' (partitionnée year/month) créée.")
+        log.info(f"Table '{table_name}' (partitionnée year/month) créée.")
 
-    def sync_partitions(self , mode = "ADD_ONLY") -> None:
+    def sync_partitions(self ,table_name: str, mode: str = "ADD_ONLY") -> None:
         try:
             if(mode == "ADD_ONLY" ):
-                self.execute(f"CALL {TRINO_CATALOG}.system.sync_partition_metadata('{TRINO_SCHEMA}', 'orders', 'ADD_ONLY')") 
+                self.execute(f"CALL {TRINO_CATALOG}.system.sync_partition_metadata('{TRINO_SCHEMA}', '{table_name}', 'ADD_ONLY')") 
             if(mode == "FULL" ):
-                self.execute(f"CALL {TRINO_CATALOG}.system.sync_partition_metadata('{TRINO_SCHEMA}', 'orders', 'FULL')")
+                self.execute(f"CALL {TRINO_CATALOG}.system.sync_partition_metadata('{TRINO_SCHEMA}', '{table_name}', 'FULL')")
         except Exception as e:
                 log.warning(f"sync_partition_metadata({mode}) échoué : {e}")
         log.info(f"Partitions synchronisées avec le mode : {mode}")

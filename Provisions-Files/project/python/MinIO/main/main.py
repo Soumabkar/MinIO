@@ -20,6 +20,7 @@ from Spark.SparkMinIo import SparkProcessor
 from utils.env import env, env_int
 
 
+
 # ─────────────────────────────────────────────────────────
 # Configuration
 # ─────────────────────────────────────────────────────────
@@ -31,8 +32,10 @@ MINIO_BUCKET     = env("MINIO_BUCKET")
 TRINO_HOST       = env("TRINO_HOST")
 TRINO_PORT       = env_int("TRINO_PORT")
 TRINO_USER       = env("TRINO_USER")
-TRINO_CATALOG    = "hive"
-TRINO_SCHEMA     = "ecommerce"
+TRINO_CATALOG    = env("TRINO_CATALOG")
+TRINO_SCHEMA     = env("TRINO_SCHEMA")
+
+DATA_FOLDER      = env("DATA_FOLDER")
 
 SPARK_MASTER     = env("SPARK_MASTER")
 
@@ -67,9 +70,9 @@ def main():
     # ── 2. Chargement MinIO ────────────────────────────────
     log.info("\n☁️   [2/5] Chargement dans MinIO...")
     loader = MinIOLoader()
-    loader.upload_dataframe(customers_df, "warehouse/customers")
-    loader.upload_dataframe(products_df,  "warehouse/products")
-    loader.upload_dataframe(orders_df,  "warehouse/orders", partition_cols=["year", "month"], )
+    loader.upload_dataframe(customers_df, MINIO_BUCKET, DATA_FOLDER)
+    loader.upload_dataframe(products_df, MINIO_BUCKET, DATA_FOLDER)
+    loader.upload_dataframe(orders_df, MINIO_BUCKET, DATA_FOLDER, partition_cols=["year", "month"])
 
         # Liste des objets uploadés
     objects = loader.list_objects("warehouse/")
@@ -78,19 +81,20 @@ def main():
     # ── 3. Création schéma + tables Hive via Trino ─────────
     log.info("\n🗃️   [3/5] Création du schéma et des tables Hive...")
     trino_mgr = TrinoManager()
-    trino_mgr.create_schema()
-    trino_mgr.create_table_customers()
-    trino_mgr.create_table_products()
-    trino_mgr.create_table_orders()
-    trino_mgr.sync_partitions("FULL")
+    trino_mgr.create_schema(MINIO_BUCKET, DATA_FOLDER, TRINO_CATALOG, TRINO_SCHEMA)
+    trino_mgr.create_table_customers(MINIO_BUCKET, DATA_FOLDER, TRINO_CATALOG, TRINO_SCHEMA)
+    trino_mgr.create_table_products(MINIO_BUCKET, DATA_FOLDER, TRINO_CATALOG, TRINO_SCHEMA)
+    trino_mgr.create_table_orders(MINIO_BUCKET, DATA_FOLDER, TRINO_CATALOG, TRINO_SCHEMA)
+    trino_mgr.sync_partitions("orders", "FULL")
 
     # ── 4. Lecture et KPIs PySpark ─────────────────────────
     log.info("\n⚡  [4/5] Lecture et calculs PySpark...")
     spark_proc = SparkProcessor()
     try:
-        orders_spark   = spark_proc.read_parquet("warehouse/orders")
-        customers_spark = spark_proc.read_parquet("warehouse/customers")
-        products_spark  = spark_proc.read_parquet("warehouse/products")
+        # read_parquet(self, file_path: str, data_folder: str = DATA_FOLDER, bucket: str = MINIO_BUCKET)
+        orders_spark   = spark_proc.read_parquet("orders", DATA_FOLDER, MINIO_BUCKET)
+        customers_spark = spark_proc.read_parquet("customers", DATA_FOLDER, MINIO_BUCKET)
+        products_spark  = spark_proc.read_parquet("products", DATA_FOLDER, MINIO_BUCKET)
 
         log.info(f"  Orders  : {orders_spark.count():>6} lignes | Partitions: {orders_spark.rdd.getNumPartitions()}")
         log.info(f"  Customers: {customers_spark.count():>5} lignes")

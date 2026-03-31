@@ -100,9 +100,9 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "file",
   #   source:      "Provisions-Files/project/python/MinIO/SqlEngine/__init__.py",
   #   destination: "/home/vagrant/project/python/MinIO/SqlEngine/__init__.py"
-  # config.vm.provision "file",
-  #   source:      "Provisions-Files/project/python/MinIO/main/main.py",
-  #   destination: "/home/vagrant/project/python/MinIO/main/main.py"
+  config.vm.provision "file",
+    source:      "Provisions-Files/project/python/MinIO/main/main.py",
+    destination: "/home/vagrant/project/python/MinIO/main/main.py"
   # config.vm.provision "file",
   #   source:      "Provisions-Files/project/python/MinIO/main/__init__.py", 
   #   destination: "/home/vagrant/project/python/MinIO/main/__init__.py"

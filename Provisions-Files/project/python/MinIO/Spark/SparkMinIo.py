@@ -3,19 +3,21 @@ from pyspark.sql import Window
 from pyspark.sql import functions as F
 import logging
 import os
+from utils.env import env
 
-SPARK_MASTER     = os.getenv("SPARK_MASTER")
+MINIO_ENDPOINT   = env("MINIO_ENDPOINT")
+MINIO_ACCESS_KEY = env("MINIO_ACCESS_KEY")
+MINIO_SECRET_KEY = env("MINIO_SECRET_KEY")
+MINIO_BUCKET     = env("MINIO_BUCKET")
+
+TRINO_SCHEMA    = env("TRINO_SCHEMA")
+
+DATA_FOLDER      = env("DATA_FOLDER")
+
+SPARK_MASTER     = env("SPARK_MASTER")
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
-
-
-
-MINIO_ENDPOINT   = os.getenv("MINIO_ENDPOINT")
-MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY")
-MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY")
-MINIO_BUCKET     = os.getenv("MINIO_BUCKET")
-
 class SparkProcessor:
     """Lecture depuis MinIO/Hive et transformations PySpark."""
 
@@ -42,15 +44,15 @@ class SparkProcessor:
         self.spark.sparkContext.setLogLevel("WARN")
         log.info("SparkSession initialisée.")
 
-    def read_parquet(self, path: str):
+    def read_parquet(self, file_path: str, data_folder: str = DATA_FOLDER, bucket: str = MINIO_BUCKET):
         """Lit un répertoire Parquet partitionné depuis MinIO."""
-        full_path = f"s3a://{MINIO_BUCKET}/{path}"
+        full_path = f"s3a://{bucket}/{data_folder}/{file_path}"
         log.info(f"Lecture Spark : {full_path}")
         return self.spark.read.parquet(full_path)
 
-    def read_hive_table(self, table: str):
+    def read_hive_table(self, table: str , schema: str = TRINO_SCHEMA):
         """Lit une table depuis le Hive Metastore."""
-        return self.spark.table(f"{TRINO_SCHEMA}.{table}")
+        return self.spark.table(f"{schema}.{table}")
 
     def compute_kpis(self, orders_df, customers_df, products_df) -> None:
         """Calcule des KPIs métier avec PySpark."""

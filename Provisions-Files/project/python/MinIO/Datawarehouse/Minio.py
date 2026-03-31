@@ -7,12 +7,14 @@ import pyarrow.parquet as pq
 from utils.env import env
 import logging
 
-MINIO_BUCKET = env("MINIO_BUCKET")
-MINIO_ENDPOINT = env("MINIO_ENDPOINT")
+MINIO_BUCKET     = env("MINIO_BUCKET")
+MINIO_ENDPOINT   = env("MINIO_ENDPOINT")
 MINIO_ACCESS_KEY = env("MINIO_ACCESS_KEY")
 MINIO_SECRET_KEY = env("MINIO_SECRET_KEY")
+DATA_FOLDER      = env("DATA_FOLDER")
 
 log = logging.getLogger(__name__)
+
 
 class MinIOLoader:
     """Gère l'upload de DataFrames Pandas vers MinIO en format Parquet."""
@@ -26,7 +28,7 @@ class MinIOLoader:
         )
         self._ensure_bucket(MINIO_BUCKET)
 
-    def _ensure_bucket(self, bucket: str = "warehouse") -> None:
+    def _ensure_bucket(self, bucket: str = MINIO_BUCKET) -> None:
         if not self.client.bucket_exists(bucket):
             self.client.make_bucket(bucket)
             log.info(f"Bucket '{bucket}' créé.")
@@ -36,47 +38,50 @@ class MinIOLoader:
     def upload_dataframe(
         self,
         df: pd.DataFrame,
-        object_path: str,
+        table_name: str,
         partition_cols: Optional[list] = None,
     ) -> None:
         """
         Upload un DataFrame en Parquet vers MinIO.
-        Si partition_cols est spécifié, écrit en partitions Hive-style.
-        Ex: s3://lakehouse/warehouse/orders/year=2024/month=1/data.parquet
+        Chemin final : s3://{MINIO_BUCKET}/{DATA_FOLDER}/{table_name}/[partitions/]data.parquet
         """
+        base_path = f"{DATA_FOLDER}/{table_name}"
+
         if partition_cols:
             for keys, group in df.groupby(partition_cols):
-                # Construire le chemin de partition
                 if not isinstance(keys, tuple):
                     keys = (keys,)
                 parts = "/".join(
-                    f"{col}={val}"
-                    for col, val in zip(partition_cols, keys)
+                    f"{col}={val}" for col, val in zip(partition_cols, keys)
                 )
-                path = f"{object_path}/{parts}/data.parquet"
-                self._upload_to_minio(group.drop(columns=partition_cols), path)
+                object_name = f"{base_path}/{parts}/data.parquet"
+                self._upload_to_minio(group.drop(columns=partition_cols), object_name)
         else:
-            self._upload_to_minio(df, f"{object_path}/data.parquet")
+            object_name = f"{base_path}/data.parquet"
+            self._upload_to_minio(df, object_name)
 
     def _upload_to_minio(self, df: pd.DataFrame, object_name: str) -> None:
         table = pa.Table.from_pandas(df, preserve_index=False)
-        
-            # Convertir tous les timestamps NANOS → MICROS
-        new_schema = []
-        for field in table.schema:
-            if pa.types.is_timestamp(field.type) and field.type.unit == "ns":
-                new_schema.append(field.with_type(pa.timestamp("us", tz=field.type.tz)))
-            else:
-                new_schema.append(field)
+
+        # Convertir timestamps NANOS → MICROS (compatibilité Spark)
+        new_schema = [
+            field.with_type(pa.timestamp("us", tz=field.type.tz))
+            if pa.types.is_timestamp(field.type) and field.type.unit == "ns"
+            else field
+            for field in table.schema
+        ]
         table = table.cast(pa.schema(new_schema))
 
         buf = io.BytesIO()
-        pq.write_table(table, buf, compression="snappy",
-        coerce_timestamps="us",          # force microsecondes
-        allow_truncated_timestamps=True, # tronque si nécessaire
+        pq.write_table(
+            table, buf,
+            compression="snappy",
+            coerce_timestamps="us",
+            allow_truncated_timestamps=True,
         )
         buf.seek(0)
         size = buf.getbuffer().nbytes
+
         self.client.put_object(
             MINIO_BUCKET,
             object_name,
