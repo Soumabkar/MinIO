@@ -114,6 +114,16 @@ TRINO_SCHEMA=ecommerce
 SPARK_MASTER="local[*]"
 ```
 
-Exécutez la commande : `export $(grep -v '^#' conf/env | xargs)` ou `set -a && source conf/env && set +a` pour que les variable d'environnement qui se trouvent le répertoire conf du projet soient sourcées.
+Exécutez la commande : `export $(grep -v '^#' conf/env | sed 's/[[:space:]]*$//' | xargs)` ou `set -a && source conf/env && set +a` pour que les variable d'environnement qui se trouvent le répertoire conf du projet soient sourcées.
+
+* Si l'on veut changer de Location  des données il faut supprimer les tables puis les récréer.
+
+```sql
+-- Dans Trino CLI
+DROP TABLE IF EXISTS hive.ecommerce.products;
+DROP TABLE IF EXISTS hive.ecommerce.customers;
+DROP TABLE IF EXISTS hive.ecommerce.orders;
+DROP SCHEMA IF EXISTS hive.ecommerce;
+```
 
 

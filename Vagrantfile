@@ -76,9 +76,9 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "file",
   #   source:      "Provisions-Files/project/python/MinIO/config.ini",
   #   destination: "/home/vagrant/project/python/MinIO/config.ini"
-  # config.vm.provision "file",
-  #   source:      "Provisions-Files/project/python/MinIO/Datawarehouse/Minio.py",
-  #   destination: "/home/vagrant/project/python/MinIO/Datawarehouse/Minio.py"
+  config.vm.provision "file",
+    source:      "Provisions-Files/project/python/MinIO/Datawarehouse/Minio.py",
+    destination: "/home/vagrant/project/python/MinIO/Datawarehouse/Minio.py"
   # config.vm.provision "file",
   #   source:      "Provisions-Files/project/python/MinIO/Datawarehouse/__init__.py",
   #   destination: "/home/vagrant/project/python/MinIO/Datawarehouse/__init__.py"
@@ -88,15 +88,15 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "file",
   #   source:      "Provisions-Files/project/python/MinIO/Entity/__init__.py",
   #   destination: "/home/vagrant/project/python/MinIO/Entity/__init__.py"
-  # config.vm.provision "file",
-  #   source:      "Provisions-Files/project/python/MinIO/Spark/SparkMinIo.py",
-  #   destination: "/home/vagrant/project/python/MinIO/Spark/SparkMinIo.py"
+  config.vm.provision "file",
+    source:      "Provisions-Files/project/python/MinIO/Spark/SparkMinIo.py",
+    destination: "/home/vagrant/project/python/MinIO/Spark/SparkMinIo.py"
   # config.vm.provision "file",
   #   source:      "Provisions-Files/project/python/MinIO/Spark/__init__.py",
   #   destination: "/home/vagrant/project/python/MinIO/Spark/__init__.py"
-  # config.vm.provision "file",
-  #   source:      "Provisions-Files/project/python/MinIO/SqlEngine/Trino.py",
-  #   destination: "/home/vagrant/project/python/MinIO/SqlEngine/Trino.py"
+  config.vm.provision "file",
+    source:      "Provisions-Files/project/python/MinIO/SqlEngine/Trino.py",
+    destination: "/home/vagrant/project/python/MinIO/SqlEngine/Trino.py"
   # config.vm.provision "file",
   #   source:      "Provisions-Files/project/python/MinIO/SqlEngine/__init__.py",
   #   destination: "/home/vagrant/project/python/MinIO/SqlEngine/__init__.py"
@@ -106,11 +106,17 @@ Vagrant.configure("2") do |config|
   # config.vm.provision "file",
   #   source:      "Provisions-Files/project/python/MinIO/main/__init__.py", 
   #   destination: "/home/vagrant/project/python/MinIO/main/__init__.py"
-    # config.vm.provision "file",
-    #   source:      "Provisions-Files/project/python/MinIO/conf/env",
-    #   destination: "/home/vagrant/project/python/MinIO/conf/env"
+    config.vm.provision "file",
+      source:      "Provisions-Files/project/python/MinIO/conf/env",
+      destination: "/home/vagrant/project/python/MinIO/conf/env"
   config.vm.provision "file",
-    source:      "Provisions-Files/project/python/MinIO/pipeline.py",
-     destination: "/home/vagrant/project/python/MinIO/pipeline.py"
+    source:      "Provisions-Files/project/python/MinIO/pipeline-test.py",
+     destination: "/home/vagrant/project/python/MinIO/pipeline-test.py"
+  config.vm.provision "file",
+    source:      "Provisions-Files/project/python/MinIO/utils/env.py",
+     destination: "/home/vagrant/project/python/MinIO/utils/env.py"
+  config.vm.provision "file",
+    source:      "Provisions-Files/project/python/MinIO/utils/__init__.py",
+     destination: "/home/vagrant/project/python/MinIO/utils/__init__.py"
 
 end

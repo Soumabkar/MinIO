@@ -1,4 +1,5 @@
 from pyspark.sql import SparkSession
+from pyspark.sql import Window
 from pyspark.sql import functions as F
 import logging
 import os
@@ -95,31 +96,17 @@ class SparkProcessor:
         print("\n  📉  Taux d'annulation par pays (>10 commandes)")
         cancellation_rate.show(10, truncate=False)
 
-        # 3. Fenêtre glissante – CA cumulé mensuel
-        monthly_sales = (
-            orders_df
-            .filter(F.col("status") == "COMPLETED")
-            .groupBy("year", "month")
-            .agg(F.round(F.sum("total_amount"), 2).alias("ca_mensuel"))
-            .withColumn(
-                "ca_cumule",
-                F.round(
-                    F.sum("ca_mensuel").over(
-                        __import__("pyspark.sql.window", fromlist=["Window"])
-                        .Window.orderBy("year", "month")
-                        .rowsBetween(
-                            __import__("pyspark.sql.window", fromlist=["Window"])
-                            .Window.unboundedPreceding, 0
-                        )
-                    ),
-                    2,
-                ),
-            )
-            .orderBy("year", "month")
-        )
+#         w_cumul = (Window.orderBy("year", "month").rowsBetween(Window.unboundedPreceding, 0))
 
-        print("\n  📈  CA mensuel + cumulé")
-        monthly_sales.show(24, truncate=False)
+#         monthly_sales = (orders_df.filter(F.col("status") == "COMPLETED")
+#                 .groupBy("year", "month")
+#                 .agg(F.round(F.sum("total_amount"), 2).alias("ca_mensuel"))
+#                 .withColumn("ca_cumule", F.round(F.sum("ca_mensuel").over(w_cumul), 2))
+#                 .orderBy("year", "month")
+# )
+
+#         print("\n  📈  CA mensuel + cumulé")
+#         monthly_sales.show(24, truncate=False)
 
     def stop(self) -> None:
         self.spark.stop()

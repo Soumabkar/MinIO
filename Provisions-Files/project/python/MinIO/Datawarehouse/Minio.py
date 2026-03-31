@@ -1,17 +1,16 @@
 from minio import Minio
-from minio.error import S3Error
-import os
 import io
 from typing import Optional
 import pandas as pd
 import pyarrow as pa
 import pyarrow.parquet as pq
+from utils.env import env
 import logging
 
-MINIO_ENDPOINT   = os.getenv("MINIO_ENDPOINT")
-MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY")
-MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY")
-MINIO_BUCKET     = os.getenv("MINIO_BUCKET")
+MINIO_BUCKET = env("MINIO_BUCKET")
+MINIO_ENDPOINT = env("MINIO_ENDPOINT")
+MINIO_ACCESS_KEY = env("MINIO_ACCESS_KEY")
+MINIO_SECRET_KEY = env("MINIO_SECRET_KEY")
 
 log = logging.getLogger(__name__)
 
@@ -28,10 +27,6 @@ class MinIOLoader:
         self._ensure_bucket(MINIO_BUCKET)
 
     def _ensure_bucket(self, bucket: str = "warehouse") -> None:
-        print(f"Vérification du bucket {bucket}...")
-        print( MINIO_ENDPOINT, "ah " , type(MINIO_ENDPOINT) )
-        print(MINIO_ACCESS_KEY, type(MINIO_ACCESS_KEY))
-        print(MINIO_SECRET_KEY , type(MINIO_SECRET_KEY))
         if not self.client.bucket_exists(bucket):
             self.client.make_bucket(bucket)
             log.info(f"Bucket '{bucket}' créé.")
@@ -65,8 +60,21 @@ class MinIOLoader:
 
     def _upload_to_minio(self, df: pd.DataFrame, object_name: str) -> None:
         table = pa.Table.from_pandas(df, preserve_index=False)
+        
+            # Convertir tous les timestamps NANOS → MICROS
+        new_schema = []
+        for field in table.schema:
+            if pa.types.is_timestamp(field.type) and field.type.unit == "ns":
+                new_schema.append(field.with_type(pa.timestamp("us", tz=field.type.tz)))
+            else:
+                new_schema.append(field)
+        table = table.cast(pa.schema(new_schema))
+
         buf = io.BytesIO()
-        pq.write_table(table, buf, compression="snappy")
+        pq.write_table(table, buf, compression="snappy",
+        coerce_timestamps="us",          # force microsecondes
+        allow_truncated_timestamps=True, # tronque si nécessaire
+        )
         buf.seek(0)
         size = buf.getbuffer().nbytes
         self.client.put_object(

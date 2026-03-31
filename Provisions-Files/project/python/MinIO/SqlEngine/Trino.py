@@ -1,15 +1,15 @@
 import trino
-import os
 import logging
+import pandas as pd
+from utils.env import env, env_int
 
 
-TRINO_HOST       = os.getenv("TRINO_HOST")
-TRINO_PORT       = os.getenv("TRINO_PORT")
-TRINO_USER       = os.getenv("TRINO_USER")
-TRINO_CATALOG    = os.getenv("TRINO_CATALOG")
-TRINO_SCHEMA     = os.getenv("TRINO_SCHEMA")
-
-MINIO_BUCKET     = os.getenv("MINIO_BUCKET")
+TRINO_HOST       = env("TRINO_HOST")
+TRINO_PORT       = env_int("TRINO_PORT")
+TRINO_USER       = env("TRINO_USER")
+TRINO_CATALOG    = env("TRINO_CATALOG")
+TRINO_SCHEMA     = env("TRINO_SCHEMA")
+MINIO_BUCKET     = env("MINIO_BUCKET")
 
 logging.basicConfig(
     level=logging.INFO,
@@ -37,15 +37,15 @@ class TrinoManager:
             return cursor.fetchall(), [desc[0] for desc in cursor.description]
         return cursor
 
-    def create_schema(self) -> None:
-        s3_location = f"s3a://{MINIO_BUCKET}/warehouse"
+    def create_schema(self, bucket: str = MINIO_BUCKET) -> None:
+        s3_location = f"s3a://{bucket}/warehouse"
         self.execute(f"""
             CREATE SCHEMA IF NOT EXISTS {TRINO_CATALOG}.{TRINO_SCHEMA}
             WITH (location = '{s3_location}')
         """)
         log.info(f"Schéma '{TRINO_SCHEMA}' prêt.")
 
-    def create_table_customers(self) -> None:
+    def create_table_customers(self ,  bucket: str = MINIO_BUCKET) -> None:
         self.execute(f"""
             CREATE TABLE IF NOT EXISTS {TRINO_CATALOG}.{TRINO_SCHEMA}.customers (
                 customer_id  INTEGER,
@@ -58,12 +58,12 @@ class TrinoManager:
             )
             WITH (
                 format           = 'PARQUET',
-                external_location = 's3a://{MINIO_BUCKET}/warehouse/customers'
+                external_location = 's3a://{bucket}/warehouse/customers'
             )
         """)
         log.info("Table 'customers' créée.")
 
-    def create_table_products(self) -> None:
+    def create_table_products(self, bucket: str = MINIO_BUCKET) -> None:
         self.execute(f"""
             CREATE TABLE IF NOT EXISTS {TRINO_CATALOG}.{TRINO_SCHEMA}.products (
                 product_id  INTEGER,
@@ -74,12 +74,12 @@ class TrinoManager:
             )
             WITH (
                 format           = 'PARQUET',
-                external_location = 's3a://{MINIO_BUCKET}/warehouse/products'
+                external_location = 's3a://{bucket}/warehouse/products'
             )
         """)
         log.info("Table 'products' créée.")
 
-    def create_table_orders(self) -> None:
+    def create_table_orders(self, bucket: str = MINIO_BUCKET) -> None:
         """Table partitionnée par année et mois."""
         self.execute(f"""
             CREATE TABLE IF NOT EXISTS {TRINO_CATALOG}.{TRINO_SCHEMA}.orders (
@@ -96,16 +96,22 @@ class TrinoManager:
             )
             WITH (
                 format             = 'PARQUET',
-                external_location  = 's3a://{MINIO_BUCKET}/warehouse/orders',
+                external_location  = 's3a://{bucket}/warehouse/orders',
                 partitioned_by     = ARRAY['year', 'month']
             )
         """)
         log.info("Table 'orders' (partitionnée year/month) créée.")
 
-    def sync_partitions(self) -> None:
-        """Synchronise les partitions détectées depuis MinIO."""
-        self.execute(f"CALL {TRINO_CATALOG}.system.sync_partition_metadata('{TRINO_SCHEMA}', 'orders', 'FULL')")
-        log.info("Partitions synchronisées.")
+    def sync_partitions(self , mode = "ADD_ONLY") -> None:
+        try:
+            if(mode == "ADD_ONLY" ):
+                self.execute(f"CALL {TRINO_CATALOG}.system.sync_partition_metadata('{TRINO_SCHEMA}', 'orders', 'ADD_ONLY')") 
+            if(mode == "FULL" ):
+                self.execute(f"CALL {TRINO_CATALOG}.system.sync_partition_metadata('{TRINO_SCHEMA}', 'orders', 'FULL')")
+        except Exception as e:
+                log.warning(f"sync_partition_metadata({mode}) échoué : {e}")
+        log.info(f"Partitions synchronisées avec le mode : {mode}")
+
 
     def run_analytics(self) -> None:
         """Exemples de requêtes analytiques Trino."""
