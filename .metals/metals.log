@@ -837,3 +837,428 @@ INFOS: Unsupported notification method: $/setTrace
 2026.03.28 07:30:56 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
 2026.03.28 07:30:56 WARN  no build tool detected in workspace 'D:\training\editions_eni\MinIO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2026.03.28 07:30:57 WARN  Build server is not auto-connectable.
+2026.03.31 05:02:44 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala
+2026.03.31 05:02:44 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:02:44 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:02:50 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala
+2026.03.31 05:02:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:02:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:02:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:02:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+mars 31, 2026 5:02:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5
+2026.03.31 05:02:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:02:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:02:54 INFO  time: code lens generation in 4.59s
+2026.03.31 05:02:55 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:13 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala
+2026.03.31 05:03:14 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:03:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 16
+2026.03.31 05:03:17 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:19 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:19 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:19 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala
+2026.03.31 05:03:20 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:19 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:19 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:03:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 26
+mars 31, 2026 5:03:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 29
+mars 31, 2026 5:03:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 31
+mars 31, 2026 5:03:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 30
+mars 31, 2026 5:03:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 33
+mars 31, 2026 5:03:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 32
+mars 31, 2026 5:03:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 27
+2026.03.31 05:03:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:21 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala
+2026.03.31 05:03:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:03:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 35
+mars 31, 2026 5:03:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 39
+2026.03.31 05:03:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:03:24 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:04:24 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:04:24 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:04:24 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt
+2026.03.31 05:04:24 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:04:25 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:04:24 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:04:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 47
+mars 31, 2026 5:04:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 51
+2026.03.31 05:04:26 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:15 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala
+2026.03.31 05:05:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:05:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 57
+mars 31, 2026 5:05:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 61
+2026.03.31 05:05:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:17 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:29 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:34 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:34 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala
+2026.03.31 05:05:34 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:35 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:34 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:34 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:05:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 69
+mars 31, 2026 5:05:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 73
+2026.03.31 05:05:36 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:47 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:47 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:47 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala
+2026.03.31 05:05:47 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:47 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:47 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:05:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 79
+mars 31, 2026 5:05:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 82
+2026.03.31 05:05:47 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:49 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:49 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:05:53 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:01 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:01 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala
+2026.03.31 05:06:01 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:02 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:01 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:01 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:02 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:13 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala
+2026.03.31 05:06:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:13 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\ETLMetrics.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:15 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala
+2026.03.31 05:06:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:19 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\MetricsIceberg.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:19 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:20 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\metrics\sampleInETL.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:23 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:25 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:25 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:27 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:27 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:29 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:29 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:29 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:30 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:30 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:30 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:31 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:31 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:33 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:33 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:33 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:33 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:33 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:33 INFO  Created report: Optional[file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/Main.scala]
+2026.03.31 05:06:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-31\r_empty-definition_05-06-33-781.md")
+2026.03.31 05:06:33 INFO  Created report: Optional[file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/etl-project/src/main/scala/Main.scala]
+2026.03.31 05:06:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-31\r_empty-definition_05-06-33-816.md")
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+mars 31, 2026 5:06:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 153
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:59 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:59 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:59 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-31\r_empty-definition_05-06-33-816.md")
+2026.03.31 05:06:59 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:59 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-31\r_empty-definition_05-06-33-816.md")
+2026.03.31 05:07:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-31\r_empty-definition_05-06-33-781.md")
+2026.03.31 05:07:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:00 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala
+2026.03.31 05:07:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-31\r_empty-definition_05-06-33-781.md")
+2026.03.31 05:07:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-31\r_empty-definition_05-06-33-781.md")
+2026.03.31 05:07:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "D:\training\editions_eni\MinIO\.metals\.reports\metals-full\2026-03-31\r_empty-definition_05-06-33-781.md")
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 155
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 156
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 157
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 158
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 159
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 160
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 161
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 162
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 163
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 164
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 166
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 167
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 168
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 169
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 170
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 171
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 172
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 173
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 174
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 175
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 176
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 179
+mars 31, 2026 5:07:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 182
+2026.03.31 05:07:03 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:20 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\writer\IcebergWriter.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:07:24 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:34 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\transformation\Transformer.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:46 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:46 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt
+2026.03.31 05:08:46 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:46 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/build.sbt
+2026.03.31 05:08:47 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\config\SparkConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:48 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:48 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/build.sbt
+2026.03.31 05:08:57 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:57 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:57 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:08:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:09:01 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt
+2026.03.31 05:09:01 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:09:02 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\etl-project\src\main\scala\ingestion\S3Reader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:16 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt
+2026.03.31 05:10:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:16 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/project/plugins.sbt
+2026.03.31 05:10:18 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:18 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/project/plugins.sbt
+2026.03.31 05:10:28 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:28 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:28 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:29 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:29 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/project/plugins.sbt
+2026.03.31 05:10:32 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt
+2026.03.31 05:10:33 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:10:33 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/project/plugins.sbt
+2026.03.31 05:11:36 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:11:36 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala
+2026.03.31 05:11:36 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:11:36 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/config/AppConfig.scala
+mars 31, 2026 5:11:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 251
+2026.03.31 05:11:37 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:11:37 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:11:38 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:11:38 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:12:02 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala
+2026.03.31 05:12:04 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala
+2026.03.31 05:12:04 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:12:06 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:26 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:26 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala
+2026.03.31 05:13:26 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:26 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/entity/DataGenerator.scala
+2026.03.31 05:13:28 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:28 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/entity/DataGenerator.scala
+2026.03.31 05:13:32 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:32 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:32 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:33 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:13:36 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala
+2026.03.31 05:13:36 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:14:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:14:25 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:14:25 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:19 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:19 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala
+2026.03.31 05:15:19 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:20 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/datawarehouse/MinIOLoader.scala
+mars 31, 2026 5:15:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 296
+2026.03.31 05:15:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:22 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/datawarehouse/MinIOLoader.scala
+2026.03.31 05:15:23 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:23 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:23 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:23 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:24 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:15:27 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala
+2026.03.31 05:15:27 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\datawarehouse\MinIOLoader.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:01 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala
+2026.03.31 05:17:01 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:01 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:01 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/sqlengine/TrinoClient.scala
+mars 31, 2026 5:17:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 317
+2026.03.31 05:17:04 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:04 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/sqlengine/TrinoClient.scala
+2026.03.31 05:17:08 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:08 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:08 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:09 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:12 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala
+2026.03.31 05:17:12 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:17:34 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:34 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:46 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:46 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala
+2026.03.31 05:18:46 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:46 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/spark/SparkProcessor.scala
+2026.03.31 05:18:48 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:48 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/spark/SparkProcessor.scala
+2026.03.31 05:18:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:51 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:58 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala
+2026.03.31 05:18:58 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala
+2026.03.31 05:18:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:58 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:18:59 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:18 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:18 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:50 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala
+2026.03.31 05:20:50 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:50 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/Main.scala
+mars 31, 2026 5:20:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 369
+2026.03.31 05:20:53 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:53 WARN  Could not find semantic tokens for: file:///D:/training/editions_eni/MinIO/Provisions-Files/project/scala/MinIO/Main.scala
+2026.03.31 05:20:56 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:56 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:56 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:20:57 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:21:00 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala
+2026.03.31 05:21:00 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:22:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:28:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:28:43 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala
+2026.03.31 05:28:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:28:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:28:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:29:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:29:15 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:29:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:29:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:29:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:29:17 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:29:17 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:30:06 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:30:11 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:30:11 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala
+2026.03.31 05:30:11 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:30:11 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:30:11 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:30:16 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:30:20 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:30:20 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\entity\DataGenerator.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:09 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:09 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala
+2026.03.31 05:31:09 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:09 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:09 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:21 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:22 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:23 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:30 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:30 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala
+2026.03.31 05:31:30 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:30 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:30 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:30 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\config\AppConfig.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:39 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:39 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala
+2026.03.31 05:31:39 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:39 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:39 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:39 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\spark\SparkProcessor.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:43 WARN  no build target for: D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala
+2026.03.31 05:31:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:43 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:44 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:31:44 INFO  no build target found for D:\training\editions_eni\MinIO\Provisions-Files\project\scala\MinIO\sqlengine\TrinoClient.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.31 05:54:07 INFO  Shutting down server
+2026.03.31 05:54:07 INFO  Memory monitor stopped
+2026.03.31 05:54:07 INFO  shutting down Metals
+2026.04.06 12:29:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\training\editions_eni\MinIO\.metals\lsp.trace.json or C:\Users\Soumabkar\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.04.06 12:29:17 INFO  logging to files D:\training\editions_eni\MinIO\.metals\metals.log
+2026.04.06 12:29:17 INFO  Started: Metals version 1.6.6 in folders 'D:\training\editions_eni\MinIO' for client Visual Studio Code 1.113.0.
+2026.04.06 12:29:17 INFO  Memory monitor started
+2026.04.06 12:29:20 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.06 12:29:20 WARN  no build tool detected in workspace 'D:\training\editions_eni\MinIO'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.04.06 12:29:21 WARN  Build server is not auto-connectable.

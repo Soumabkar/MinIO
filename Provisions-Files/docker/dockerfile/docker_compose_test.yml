@@ -1,0 +1,182 @@
+# docker-compose.yml
+services:
+
+  # ══════════════════════════════════════════════
+  #  STOCKAGE OBJET
+  # ══════════════════════════════════════════════
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    hostname: minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: abdoul1201
+      MINIO_DOMAIN: minio
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio-data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    networks:
+      - datalake-network
+
+  # ══════════════════════════════════════════════
+  #  METASTORE HIVE
+  # ══════════════════════════════════════════════
+  metastore-db:
+    image: postgres:15
+    container_name: metastore-db
+    hostname: metastore-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: metastore_db
+      POSTGRES_USER: hive
+      POSTGRES_PASSWORD: abdoul1201
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hive -d metastore_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - datalake-network
+
+  hive-metastore:
+    build:
+      context: .
+      dockerfile: Dockerfile-hive
+    container_name: hive-metastore
+    hostname: hive-metastore
+    depends_on:
+      metastore-db:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    ports:
+      - "9083:9083"
+    environment:
+      SERVICE_NAME: metastore
+      DB_DRIVER: postgres
+      SKIP_SCHEMA_INIT: "false"
+    volumes:
+      - ./hive-site.xml:/opt/hive/conf/hive-site.xml:ro
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'cat /dev/null > /dev/tcp/localhost/9083'"]
+      interval: 30s
+      timeout: 10s
+      retries: 15
+      start_period: 120s
+    networks:
+      - datalake-network
+
+  # ══════════════════════════════════════════════
+  #  MOTEUR SQL
+  # ══════════════════════════════════════════════
+  trino:
+    image: trinodb/trino:466
+    container_name: trino
+    hostname: trino
+    depends_on:
+      hive-metastore:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./trino-config:/etc/trino:ro
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/v1/info || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - datalake-network
+
+  # ══════════════════════════════════════════════
+  #  SUPERSET
+  # ══════════════════════════════════════════════
+  superset-db:
+    image: postgres:15
+    container_name: superset_db
+    hostname: superset-db
+    environment:
+      POSTGRES_DB: superset
+      POSTGRES_USER: superset
+      POSTGRES_PASSWORD: superset
+    volumes:
+      - superset-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U superset -d superset"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - datalake-network
+
+  superset-redis:
+    image: redis:7-alpine
+    container_name: superset_redis
+    hostname: superset-redis
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - datalake-network
+
+  superset:
+    image: apache/superset:latest
+    container_name: superset
+    hostname: superset
+    depends_on:
+      superset-db:
+        condition: service_healthy
+      superset-redis:
+        condition: service_healthy
+      trino:
+        condition: service_healthy
+    ports:
+      - "8088:8088"
+    environment:
+      DATABASE_URL: postgresql+psycopg2://superset:superset@superset-db/superset
+      REDIS_URL: redis://superset-redis:6379/0
+      SECRET_KEY: "changeme_super_secret_key_32chars"
+      SUPERSET_LOAD_EXAMPLES: "no"
+    volumes:
+      - ./superset_config.py:/app/pythonpath/superset_config.py
+    command: >
+      bash -c "
+        superset db upgrade &&
+        superset fab create-admin
+          --username admin
+          --firstname Admin
+          --lastname User
+          --email admin@example.com
+          --password admin &&
+        superset init &&
+        superset run -h 0.0.0.0 -p 8088
+      "
+    networks:
+      - datalake-network
+
+# ══════════════════════════════════════════════
+#  VOLUMES & RÉSEAU
+# ══════════════════════════════════════════════
+volumes:
+  minio-data:
+  postgres-data:
+  superset-db-data:
+
+networks:
+  datalake-network:
+    driver: bridge
+    name: datalake-network
