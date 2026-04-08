@@ -2,7 +2,8 @@
 
 ## Prérequis et installation
 
-Pour le bon fonctionnement de notre plateform nous allons installer `vagrant` https://developer.hashicorp.com/vagrant et `virtualbox` https://www.virtualbox.org/.
+Pour le bon fonctionnement de notre plateform nous allons installer `vagrant` https://developer.hashicorp.com/vagrant et `virtualbox` https://www.virtualbox.org/ .
+
 `vagrant` va nous permettre de manager nos mochine virtuelle sur `virtualbox`.
 Nous allons installer cela grace à `chocolatey` https://chocolatey.org/
 
@@ -18,7 +19,7 @@ Nous allons installer cela grace à `chocolatey` https://chocolatey.org/
 
 ### Installation des outils
 
-* Installation virtualbox
+* Installation virtualbox via chocolatey
 
     Ouvre PowerShell en tant qu'administrateur et exécute :
     ```powershell
@@ -44,6 +45,12 @@ Nous allons installer cela grace à `chocolatey` https://chocolatey.org/
     # Mettre à jour plus tard
     choco upgrade virtualbox -y
     ```
+
+* Installation de vagrant via chocolatey
+
+  ```powershell
+  choco install vagrant -y
+  ```
 
 ## Mise en place de la plateform
 
