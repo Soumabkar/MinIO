@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
   # # Provisionnement Java, Scala
   # config.vm.provision "shell", path: "Provisions-Files/OS/provision/scala/provision-install-java.sh"
   # config.vm.provision "shell", path: "Provisions-Files/OS/provision/scala/provision-install-sdkman-scala-sbt.sh"
-  config.vm.provision "shell", path: "Provisions-Files/OS/provision/scala/provision_prepa_env_scala.sh"
+   config.vm.provision "shell", path: "Provisions-Files/OS/provision/scala/provision_prepa_env_scala.sh"
   
 
   # # Provisionnement Docker
@@ -132,31 +132,31 @@ Vagrant.configure("2") do |config|
 
   ## Projet MinIO scala
   config.vm.provision "file",
-    source:      "Provisions-Files/project/scala/MinIO/build.sbt",
-    destination: "/home/vagrant/project/scala/MinIO/build.sbt"
+    source:      "Provisions-Files/project/scala/minio/build.sbt",
+    destination: "/home/vagrant/project/scala/minio/build.sbt"
   config.vm.provision "file",
-    source:      "Provisions-Files/project/scala/MinIO/Main.scala",
-    destination: "/home/vagrant/project/scala/MinIO/src/main/scala/minio/Main.scala"
+    source:      "Provisions-Files/project/scala/minio/Main.scala",
+    destination: "/home/vagrant/project/scala/minio/src/main/scala/minio/Main.scala"
   config.vm.provision "file",
-    source:      "Provisions-Files/project/scala/MinIO/Datawarehouse/MinIOLoader.scala",
-    destination: "/home/vagrant/project/scala/MinIO/src/main/scala/minio/Datawarehouse/MinIOLoader.scala"
+    source:      "Provisions-Files/project/scala/minio/Datawarehouse/MinIOLoader.scala",
+    destination: "/home/vagrant/project/scala/minio/src/main/scala/minio/Datawarehouse/MinIOLoader.scala"
   config.vm.provision "file",
-    source:      "Provisions-Files/project/scala/MinIO/Entity/DataGenerator.scala",
-    destination: "/home/vagrant/project/scala/MinIO/src/main/scala/minio/Entity/DataGenerator.scala"
+    source:      "Provisions-Files/project/scala/minio/Entity/DataGenerator.scala",
+    destination: "/home/vagrant/project/scala/minio/src/main/scala/minio/Entity/DataGenerator.scala"
   config.vm.provision "file",
-    source:      "Provisions-Files/project/scala/MinIO/Spark/SparkProcessor.scala",
-    destination: "/home/vagrant/project/scala/MinIO/src/main/scala/minio/Spark/SparkProcessor.scala"
+    source:      "Provisions-Files/project/scala/minio/Spark/SparkProcessor.scala",
+    destination: "/home/vagrant/project/scala/minio/src/main/scala/minio/Spark/SparkProcessor.scala"
   config.vm.provision "file",
-    source:      "Provisions-Files/project/scala/MinIO/SqlEngine/TrinoClient.scala",
-    destination: "/home/vagrant/project/scala/MinIO/src/main/scala/minio/SqlEngine/TrinoClient.scala"
+    source:      "Provisions-Files/project/scala/minio/SqlEngine/TrinoClient.scala",
+    destination: "/home/vagrant/project/scala/minio/src/main/scala/minio/SqlEngine/TrinoClient.scala"
   config.vm.provision "file",
-    source:      "Provisions-Files/project/scala/MinIO/project/plugins.sbt",
-    destination: "/home/vagrant/project/scala/MinIO/project/plugins.sbt"
+    source:      "Provisions-Files/project/scala/minio/project/plugins.sbt",
+    destination: "/home/vagrant/project/scala/minio/project/plugins.sbt"
     config.vm.provision "file",
-      source:      "Provisions-Files/project/scala/MinIO/config/env",
-      destination: "/home/vagrant/project/scala/MinIO/src/main/scala/minio/config/env"
+      source:      "Provisions-Files/project/scala/minio/config/env",
+      destination: "/home/vagrant/project/scala/minio/src/main/scala/minio/config/env"
       config.vm.provision "file",
-      source:      "Provisions-Files/project/scala/MinIO/config/AppConfig.scala",
-      destination: "/home/vagrant/project/scala/MinIO/src/main/scala/minio/config/AppConfig.scala"
+      source:      "Provisions-Files/project/scala/minio/config/AppConfig.scala",
+      destination: "/home/vagrant/project/scala/minio/src/main/scala/minio/config/AppConfig.scala"
 
 end
