@@ -1,6 +1,6 @@
-package com.lakehouse.sqlengine
+package minio.sqlengine
 
-import com.lakehouse.config.AppConfig
+import minio.config.AppConfig
 import org.slf4j.LoggerFactory
 import java.sql.{Connection, DriverManager, ResultSet}
 import java.util.Properties
@@ -40,7 +40,7 @@ class TrinoClient(cfg: AppConfig) {
   def createSchema(): Unit = {
     execute(s"""
       CREATE SCHEMA IF NOT EXISTS ${cfg.trinoCatalog}.${cfg.trinoSchema}
-      WITH (location = 's3a://${???}/${cfg.dataFolder}/')
+      WITH (location = 's3a://${cfg.minioBucket}/${cfg.dataFolder}/')
     """)
     log.info(s"Schéma '${cfg.trinoSchema}' prêt.")
   }
@@ -116,7 +116,6 @@ class TrinoClient(cfg: AppConfig) {
     }
 
     // Fallback : ALTER TABLE ADD PARTITION par partition
-    import org.apache.spark.sql.functions._
     val partitions = df.select("year", "month").distinct().collect()
     var ok = 0; var ko = 0
     partitions.foreach { row =>

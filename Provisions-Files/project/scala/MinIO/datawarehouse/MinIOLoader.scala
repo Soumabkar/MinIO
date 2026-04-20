@@ -1,6 +1,6 @@
-package com.lakehouse.datawarehouse
+package minio.datawarehouse
 
-import com.lakehouse.config.AppConfig
+import minio.config.AppConfig
 import io.minio.{BucketExistsArgs, MakeBucketArgs, PutObjectArgs, MinioClient, ListObjectsArgs}
 import org.apache.spark.sql.{DataFrame, SaveMode}
 import org.slf4j.LoggerFactory
@@ -50,7 +50,7 @@ class MinIOLoader(cfg: AppConfig) {
   }
 
   def listObjects(prefix: String = ""): List[String] = {
-    import scala.jdk.CollectionConverters._
+    import scala.collection.JavaConverters._
     val args = ListObjectsArgs.builder()
       .bucket(cfg.minioBucket)
       .prefix(prefix)

@@ -62,11 +62,3 @@ sudo chmod -R 755 /home/vagrant/project/python/MinIO/SqlEngine/
 sudo mkdir -p /home/vagrant/project/python/MinIO/utils/
 sudo chown -R vagrant:vagrant /home/vagrant/project/python/MinIO/utils/
 sudo chmod -R 755 /home/vagrant/project/python/MinIO/utils/
-
-sudo mkdir -p /home/vagrant/go/pkg/mod
-sudo chown -R vagrant:vagrant /home/vagrant/go/pkg/mod
-sudo chmod -R 755 /home/vagrant/go/pkg/mod
-
-
-
-

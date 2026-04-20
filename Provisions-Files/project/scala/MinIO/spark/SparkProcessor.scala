@@ -1,6 +1,6 @@
-package com.lakehouse.spark
+package minio.spark
 
-import com.lakehouse.config.AppConfig
+import minio.config.AppConfig
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.expressions.Window

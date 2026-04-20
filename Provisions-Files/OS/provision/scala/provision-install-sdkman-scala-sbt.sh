@@ -109,3 +109,10 @@ su - vagrant -c '
 '
 echo "=== Installation SDKMAN + Scala + SBT terminée ✓ ==="
 echo "================================================"
+
+# ─────────────────────────────────────────
+# Ajouter XDG_RUNTIME_DIR au .bashrc de vagrant. SBT utilise XDG_RUNTIME_DIR pour trouver /run/user/1000. le user vagrant
+# ─────────────────────────────────────────
+
+echo 'export XDG_RUNTIME_DIR=/tmp/runtime-$(id -u)' >> ~/.bashrc
+source ~/.bashrc

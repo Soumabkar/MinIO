@@ -1,4 +1,4 @@
-package com.lakehouse.config
+package minio.config
 
 case class AppConfig(
   minioEndpoint  : String,

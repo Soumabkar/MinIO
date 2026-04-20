@@ -1,10 +1,10 @@
-package com.lakehouse
+package minio
 
-import com.lakehouse.config.AppConfig
-import com.lakehouse.entity.DataGenerator
-import com.lakehouse.datawarehouse.MinIOLoader
-import com.lakehouse.sqlengine.TrinoClient
-import com.lakehouse.spark.SparkProcessor
+import minio.config.AppConfig
+import minio.entity.DataGenerator
+import minio.datawarehouse.MinIOLoader
+import minio.sqlengine.TrinoClient
+import minio.spark.SparkProcessor
 import org.slf4j.LoggerFactory
 
 object Main extends App {
