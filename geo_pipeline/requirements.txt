@@ -1,0 +1,5 @@
+sqlalchemy>=2.0
+trino[sqlalchemy]>=0.328.0
+pandas>=2.0
+pyproj>=3.6
+shapely>=2.0
