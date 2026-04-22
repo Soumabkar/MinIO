@@ -1,10 +1,10 @@
 package minio
 
-import minio.config.AppConfig
-import minio.entity.DataGenerator
-import minio.datawarehouse.MinIOLoader
-import minio.sqlengine.TrinoClient
-import minio.spark.SparkProcessor
+import config.AppConfig._
+import entity.DataGenerator._
+import datawarehouse.MinIOLoader._
+import sqlengine.TrinoClient._
+import spark.SparkProcessor._
 import org.slf4j.LoggerFactory
 
 object Main extends App {

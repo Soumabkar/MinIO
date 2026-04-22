@@ -1,4 +1,4 @@
-package minio.config
+package config
 
 case class AppConfig(
   minioEndpoint  : String,

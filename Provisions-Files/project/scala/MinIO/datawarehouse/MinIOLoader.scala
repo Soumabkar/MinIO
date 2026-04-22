@@ -1,6 +1,6 @@
-package minio.datawarehouse
+package datawarehouse
 
-import minio.config.AppConfig
+import config.AppConfig._
 import io.minio.{BucketExistsArgs, MakeBucketArgs, PutObjectArgs, MinioClient, ListObjectsArgs}
 import org.apache.spark.sql.{DataFrame, SaveMode}
 import org.slf4j.LoggerFactory

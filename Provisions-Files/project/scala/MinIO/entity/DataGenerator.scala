@@ -1,4 +1,4 @@
-package minio.entity
+package entity
 
 import com.github.javafaker.Faker
 import org.apache.spark.sql.{DataFrame, SparkSession}

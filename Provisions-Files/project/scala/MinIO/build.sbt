@@ -1,6 +1,6 @@
 ThisBuild / version := "1.0.0"
 ThisBuild / scalaVersion := "2.12.18"
-ThisBuild / organization := "MinIO"
+ThisBuild / organization := "minio"
 
 // 👉 Important pour Spark + Java 17
 ThisBuild / fork := true
